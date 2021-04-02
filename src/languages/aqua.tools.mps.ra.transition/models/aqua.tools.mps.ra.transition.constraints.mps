@@ -47,11 +47,11 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
-        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
+        <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -62,8 +62,8 @@
   </registry>
   <node concept="1M2fIO" id="49V_FwqQKsj">
     <ref role="1M2myG" to="pr2f:4cCb6PI_raP" resolve="Guard" />
-    <node concept="9S07l" id="49V_FwqQWJ3" role="9Vyp8">
-      <node concept="3clFbS" id="49V_FwqQWJ4" role="2VODD2">
+    <node concept="9SLcT" id="49V_FwqR_gQ" role="9SGkU">
+      <node concept="3clFbS" id="49V_FwqR_gR" role="2VODD2">
         <node concept="3clFbJ" id="49V_FwqQLZ2" role="3cqZAp">
           <node concept="2OqwBi" id="49V_FwqQMrH" role="3clFbw">
             <node concept="2DD5aU" id="49V_FwqQLZx" role="2Oq$k0" />
@@ -114,6 +114,96 @@
             <node concept="3cpWs6" id="49V_FwqQSLY" role="3cqZAp">
               <node concept="3clFbT" id="49V_FwqQSLZ" role="3cqZAk">
                 <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="49V_FwqRAFr" role="3cqZAp">
+          <node concept="3clFbS" id="49V_FwqRAFt" role="3clFbx">
+            <node concept="3cpWs6" id="49V_FwqRBYm" role="3cqZAp">
+              <node concept="3clFbT" id="49V_FwqRC1s" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="49V_FwqRBnx" role="3clFbw">
+            <node concept="2DD5aU" id="49V_FwqRAIF" role="2Oq$k0" />
+            <node concept="liA8E" id="49V_FwqRBA3" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="35c_gC" id="49V_FwqRBDl" role="37wK5m">
+                <ref role="35c_gD" to="tpee:fzclF81" resolve="BooleanConstant" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="49V_FwqRCaH" role="3cqZAp">
+          <node concept="3clFbS" id="49V_FwqRCaI" role="3clFbx">
+            <node concept="3cpWs6" id="49V_FwqRCaJ" role="3cqZAp">
+              <node concept="3clFbT" id="49V_FwqRCaK" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="49V_FwqRCaL" role="3clFbw">
+            <node concept="2DD5aU" id="49V_FwqRCaM" role="2Oq$k0" />
+            <node concept="liA8E" id="49V_FwqRCaN" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="35c_gC" id="49V_FwqRCaO" role="37wK5m">
+                <ref role="35c_gD" to="tpee:htXhb8r" resolve="CharConstant" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="49V_FwqRCnK" role="3cqZAp">
+          <node concept="3clFbS" id="49V_FwqRCnL" role="3clFbx">
+            <node concept="3cpWs6" id="49V_FwqRCnM" role="3cqZAp">
+              <node concept="3clFbT" id="49V_FwqRCnN" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="49V_FwqRCnO" role="3clFbw">
+            <node concept="2DD5aU" id="49V_FwqRCnP" role="2Oq$k0" />
+            <node concept="liA8E" id="49V_FwqRCnQ" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="35c_gC" id="49V_FwqRCnR" role="37wK5m">
+                <ref role="35c_gD" to="tpee:fzcmrck" resolve="IntegerConstant" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="49V_FwqRD5e" role="3cqZAp">
+          <node concept="3clFbS" id="49V_FwqRD5f" role="3clFbx">
+            <node concept="3cpWs6" id="49V_FwqRD5g" role="3cqZAp">
+              <node concept="3clFbT" id="49V_FwqRD5h" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="49V_FwqRD5i" role="3clFbw">
+            <node concept="2DD5aU" id="49V_FwqRD5j" role="2Oq$k0" />
+            <node concept="liA8E" id="49V_FwqRD5k" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="35c_gC" id="49V_FwqRD5l" role="37wK5m">
+                <ref role="35c_gD" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="49V_FwqRDkx" role="3cqZAp">
+          <node concept="3clFbS" id="49V_FwqRDky" role="3clFbx">
+            <node concept="3cpWs6" id="49V_FwqRDkz" role="3cqZAp">
+              <node concept="3clFbT" id="49V_FwqRDk$" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="49V_FwqRDk_" role="3clFbw">
+            <node concept="2DD5aU" id="49V_FwqRDkA" role="2Oq$k0" />
+            <node concept="liA8E" id="49V_FwqRDkB" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+              <node concept="35c_gC" id="49V_FwqRDkC" role="37wK5m">
+                <ref role="35c_gD" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
               </node>
             </node>
           </node>
