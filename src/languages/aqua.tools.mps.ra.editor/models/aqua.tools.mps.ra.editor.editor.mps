@@ -51,6 +51,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
@@ -91,6 +92,7 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
     </language>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
+      <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
       <concept id="6554619383001456740" name="de.itemis.mps.editor.diagram.structure.BoxEndpointTarget" flags="ng" index="23hSZX">
         <child id="6554619383001456819" name="targetId" index="23hSWE" />
       </concept>
@@ -102,6 +104,7 @@
         <reference id="3155126767689025691" name="linkDeclaration" index="aDKIf" />
       </concept>
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
+        <child id="2044706694575458564" name="labelCell" index="3kqczz" />
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
       </concept>
@@ -193,7 +196,7 @@
                 <node concept="3cpWsn" id="4cCb6PI$Mip" role="3cpWs9">
                   <property role="TrG5h" value="transition" />
                   <node concept="3Tqbb2" id="4cCb6PI$Mil" role="1tU5fm">
-                    <ref role="ehGHo" to="4cus:4cCb6PI$LU9" resolve="Transition" />
+                    <ref role="ehGHo" to="4cus:4cCb6PI$LU9" resolve="TransitionEdge" />
                   </node>
                   <node concept="2OqwBi" id="4cCb6PI$OUe" role="33vP2m">
                     <node concept="2OqwBi" id="4cCb6PI$N6y" role="2Oq$k0">
@@ -259,7 +262,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_elj">
-    <ref role="1XX52x" to="4cus:4cCb6PI$LU9" resolve="Transition" />
+    <ref role="1XX52x" to="4cus:4cCb6PI$LU9" resolve="TransitionEdge" />
     <node concept="2ZMJ7s" id="4cCb6PI_ell" role="2wV5jI">
       <node concept="1PNbMa" id="4cCb6PI_eln" role="1PN8q7">
         <node concept="23hSZX" id="4cCb6PI_elC" role="ljJml">
@@ -279,6 +282,11 @@
               <ref role="3Tt5mk" to="4cus:4cCb6PI$LUc" resolve="to" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="238au4" id="72MYeku4qoE" role="3kqczz">
+        <node concept="3F1sOY" id="72MYeku4qPr" role="2wV5jI">
+          <ref role="1NtTu8" to="4cus:72MYeku4qoQ" resolve="transition" />
         </node>
       </node>
     </node>

@@ -57,7 +57,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="transitions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4cCb6PI$LU9" resolve="Transition" />
+      <ref role="20lvS9" node="4cCb6PI$LU9" resolve="TransitionEdge" />
     </node>
     <node concept="1TJgyj" id="7HRsFfsAaQJ" role="1TKVEi">
       <property role="IQ2ns" value="8896705705719410095" />
@@ -85,8 +85,8 @@
   </node>
   <node concept="1TIwiD" id="4cCb6PI$LU9">
     <property role="EcuMT" value="4839166648127790729" />
-    <property role="TrG5h" value="Transition" />
-    <property role="34LRSv" value="transition" />
+    <property role="TrG5h" value="TransitionEdge" />
+    <property role="34LRSv" value="transition-edge" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cCb6PI$LUa" role="1TKVEi">
       <property role="IQ2ns" value="4839166648127790730" />
@@ -97,6 +97,13 @@
       <property role="IQ2ns" value="4839166648127790732" />
       <property role="20kJfa" value="to" />
       <ref role="20lvS9" node="4cCb6PI$LU6" resolve="State" />
+    </node>
+    <node concept="1TJgyj" id="72MYeku4qoQ" role="1TKVEi">
+      <property role="IQ2ns" value="8120826741038097974" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="transition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="pr2f:4cCb6PI_raO" resolve="Transition" />
     </node>
   </node>
 </model>
