@@ -26,6 +26,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1078308402140" name="jetbrains.mps.lang.editor.structure.CellModel_Custom" flags="sg" stub="8104358048506730068" index="gc7cB">
         <child id="1176795024817" name="cellProvider" index="3YsKMw" />
@@ -275,6 +276,7 @@
             </node>
           </node>
         </node>
+        <node concept="3F0ifn" id="72MYeku5W8g" role="2czzBI" />
       </node>
       <node concept="3F0ifn" id="49V_FwqR7dT" role="3EZMnx">
         <property role="3F0ifm" value=")" />
