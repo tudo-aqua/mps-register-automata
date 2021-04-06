@@ -5,19 +5,38 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
+    <use id="c0d65dc1-b9a2-4d72-9c00-3b5c4d9dc31a" name="aqua.tools.mps.ra.transition" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="pr2f" ref="r:2200fd73-0957-4808-b47c-2357ddf3466b(aqua.tools.mps.ra.transition.structure)" />
     <import index="4cus" ref="r:21da5544-2cb1-4bc6-8abc-4ed5bfb77d43(aqua.tools.mps.ra.editor.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="2597348684684069742" name="contextHints" index="CpUAK" />
+      </concept>
+      <concept id="6822301196700715228" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclarationReference" flags="ig" index="2aJ2om">
+        <reference id="5944657839026714445" name="hint" index="2$4xQ3" />
+      </concept>
+      <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
+      </concept>
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
+        <child id="5944657839000877563" name="hints" index="2ABdcP" />
+      </concept>
+      <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
+        <property id="168363875802087287" name="showInUI" index="2gpH_U" />
+        <property id="5944657839012629576" name="presentation" index="2BUmq6" />
+      </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -25,7 +44,15 @@
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+        <child id="1219418656006" name="styleItem" index="3F10Kt" />
+      </concept>
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -117,6 +144,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -124,68 +154,94 @@
   </registry>
   <node concept="24kQdi" id="4cCb6PI$MhT">
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-    <node concept="27vDVx" id="4cCb6PI$MhV" role="2wV5jI">
-      <node concept="aDKH9" id="4cCb6PI$MhY" role="aCds2">
-        <ref role="aDKIf" to="4cus:4cCb6PI$LUf" resolve="states" />
+    <node concept="3EZMnI" id="7HRsFfsAseU" role="2wV5jI">
+      <node concept="3EZMnI" id="7HRsFfsAB4B" role="3EZMnx">
+        <node concept="3F0ifn" id="7HRsFfsAS2z" role="3EZMnx">
+          <property role="3F0ifm" value="Variables:" />
+        </node>
+        <node concept="3F2HdR" id="7HRsFfsAsj6" role="3EZMnx">
+          <ref role="1NtTu8" to="4cus:7HRsFfsAaQJ" resolve="variables" />
+          <node concept="2iRkQZ" id="7HRsFfsAS41" role="2czzBx" />
+        </node>
+        <node concept="VPM3Z" id="7HRsFfsAB4D" role="3F10Kt" />
+        <node concept="l2Vlx" id="7HRsFfsAB4G" role="2iSdaV" />
+        <node concept="3XFhqQ" id="7HRsFfsBl9L" role="3EZMnx" />
+        <node concept="3F0ifn" id="7HRsFfsAB5l" role="3EZMnx">
+          <property role="3F0ifm" value="Registers:" />
+        </node>
+        <node concept="3F2HdR" id="7HRsFfsAslz" role="3EZMnx">
+          <ref role="1NtTu8" to="4cus:7HRsFfsAbR9" resolve="registers" />
+          <node concept="2iRkQZ" id="7HRsFfsAB63" role="2czzBx" />
+        </node>
       </node>
-      <node concept="aDKH9" id="4cCb6PI$Mi3" role="aCds2">
-        <ref role="aDKIf" to="4cus:4cCb6PI$LUh" resolve="transitions" />
-      </node>
-      <node concept="3mAFYk" id="4cCb6PI$Mi7" role="1xLlFP">
-        <property role="3m_KjL" value="Create Transition" />
-        <ref role="3m_WZM" to="4cus:4cCb6PI$LU6" resolve="State" />
-        <ref role="3m_MR0" to="4cus:4cCb6PI$LU6" resolve="State" />
-        <node concept="3mAF$r" id="4cCb6PI$Mi8" role="3m_MS9">
-          <node concept="3clFbS" id="4cCb6PI$Mi9" role="2VODD2">
-            <node concept="3cpWs8" id="4cCb6PI$Mim" role="3cqZAp">
-              <node concept="3cpWsn" id="4cCb6PI$Mip" role="3cpWs9">
-                <property role="TrG5h" value="transition" />
-                <node concept="3Tqbb2" id="4cCb6PI$Mil" role="1tU5fm">
-                  <ref role="ehGHo" to="4cus:4cCb6PI$LU9" resolve="Transition" />
+      <node concept="3F0ifn" id="7HRsFfsBq9I" role="3EZMnx" />
+      <node concept="2iRkQZ" id="7HRsFfsAseV" role="2iSdaV" />
+      <node concept="27vDVx" id="4cCb6PI$MhV" role="3EZMnx">
+        <node concept="aDKH9" id="4cCb6PI$MhY" role="aCds2">
+          <ref role="aDKIf" to="4cus:4cCb6PI$LUf" resolve="states" />
+        </node>
+        <node concept="aDKH9" id="4cCb6PI$Mi3" role="aCds2">
+          <ref role="aDKIf" to="4cus:4cCb6PI$LUh" resolve="transitions" />
+        </node>
+        <node concept="3mAFYk" id="4cCb6PI$Mi7" role="1xLlFP">
+          <property role="3m_KjL" value="Create Transition" />
+          <ref role="3m_WZM" to="4cus:4cCb6PI$LU6" resolve="State" />
+          <ref role="3m_MR0" to="4cus:4cCb6PI$LU6" resolve="State" />
+          <node concept="3mAF$r" id="4cCb6PI$Mi8" role="3m_MS9">
+            <node concept="3clFbS" id="4cCb6PI$Mi9" role="2VODD2">
+              <node concept="3cpWs8" id="4cCb6PI$Mim" role="3cqZAp">
+                <node concept="3cpWsn" id="4cCb6PI$Mip" role="3cpWs9">
+                  <property role="TrG5h" value="transition" />
+                  <node concept="3Tqbb2" id="4cCb6PI$Mil" role="1tU5fm">
+                    <ref role="ehGHo" to="4cus:4cCb6PI$LU9" resolve="Transition" />
+                  </node>
+                  <node concept="2OqwBi" id="4cCb6PI$OUe" role="33vP2m">
+                    <node concept="2OqwBi" id="4cCb6PI$N6y" role="2Oq$k0">
+                      <node concept="1Pxb5l" id="4cCb6PI$Mje" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="4cCb6PI$Nh_" role="2OqNvi">
+                        <ref role="3TtcxE" to="4cus:4cCb6PI$LUh" resolve="transitions" />
+                      </node>
+                    </node>
+                    <node concept="2DeJg1" id="4cCb6PI$QRk" role="2OqNvi" />
+                  </node>
                 </node>
-                <node concept="2OqwBi" id="4cCb6PI$OUe" role="33vP2m">
-                  <node concept="2OqwBi" id="4cCb6PI$N6y" role="2Oq$k0">
-                    <node concept="1Pxb5l" id="4cCb6PI$Mje" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="4cCb6PI$Nh_" role="2OqNvi">
-                      <ref role="3TtcxE" to="4cus:4cCb6PI$LUh" resolve="transitions" />
+              </node>
+              <node concept="3clFbF" id="4cCb6PI$R94" role="3cqZAp">
+                <node concept="37vLTI" id="4cCb6PI$R_j" role="3clFbG">
+                  <node concept="3m_RyK" id="4cCb6PI$R_I" role="37vLTx" />
+                  <node concept="2OqwBi" id="4cCb6PI$Rh5" role="37vLTJ">
+                    <node concept="37vLTw" id="4cCb6PI$R92" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4cCb6PI$Mip" resolve="transition" />
+                    </node>
+                    <node concept="3TrEf2" id="4cCb6PI$Rse" role="2OqNvi">
+                      <ref role="3Tt5mk" to="4cus:4cCb6PI$LUa" resolve="from" />
                     </node>
                   </node>
-                  <node concept="2DeJg1" id="4cCb6PI$QRk" role="2OqNvi" />
                 </node>
               </node>
-            </node>
-            <node concept="3clFbF" id="4cCb6PI$R94" role="3cqZAp">
-              <node concept="37vLTI" id="4cCb6PI$R_j" role="3clFbG">
-                <node concept="3m_RyK" id="4cCb6PI$R_I" role="37vLTx" />
-                <node concept="2OqwBi" id="4cCb6PI$Rh5" role="37vLTJ">
-                  <node concept="37vLTw" id="4cCb6PI$R92" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4cCb6PI$Mip" resolve="transition" />
-                  </node>
-                  <node concept="3TrEf2" id="4cCb6PI$Rse" role="2OqNvi">
-                    <ref role="3Tt5mk" to="4cus:4cCb6PI$LUa" resolve="from" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="4cCb6PI$RCl" role="3cqZAp">
-              <node concept="37vLTI" id="4cCb6PI$RLM" role="3clFbG">
-                <node concept="3m_Ry6" id="4cCb6PI$RMd" role="37vLTx" />
-                <node concept="2OqwBi" id="4cCb6PI$RK8" role="37vLTJ">
-                  <node concept="37vLTw" id="4cCb6PI$RCj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4cCb6PI$Mip" resolve="transition" />
-                  </node>
-                  <node concept="3TrEf2" id="4cCb6PI$RKX" role="2OqNvi">
-                    <ref role="3Tt5mk" to="4cus:4cCb6PI$LUc" resolve="to" />
+              <node concept="3clFbF" id="4cCb6PI$RCl" role="3cqZAp">
+                <node concept="37vLTI" id="4cCb6PI$RLM" role="3clFbG">
+                  <node concept="3m_Ry6" id="4cCb6PI$RMd" role="37vLTx" />
+                  <node concept="2OqwBi" id="4cCb6PI$RK8" role="37vLTJ">
+                    <node concept="37vLTw" id="4cCb6PI$RCj" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4cCb6PI$Mip" resolve="transition" />
+                    </node>
+                    <node concept="3TrEf2" id="4cCb6PI$RKX" role="2OqNvi">
+                      <ref role="3Tt5mk" to="4cus:4cCb6PI$LUc" resolve="to" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="1RuTs0" id="4cCb6PI_b0$" role="1RuSHk">
+          <ref role="1RuSHD" to="4cus:4cCb6PI$LUf" resolve="states" />
+        </node>
       </node>
-      <node concept="1RuTs0" id="4cCb6PI_b0$" role="1RuSHk">
-        <ref role="1RuSHD" to="4cus:4cCb6PI$LUf" resolve="states" />
-      </node>
+    </node>
+    <node concept="2aJ2om" id="7HRsFfsAij0" role="CpUAK">
+      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_5O6">
@@ -197,6 +253,9 @@
         </node>
         <node concept="l2Vlx" id="4cCb6PI_5On" role="2iSdaV" />
       </node>
+    </node>
+    <node concept="2aJ2om" id="7HRsFfsAiko" role="CpUAK">
+      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_elj">
@@ -222,6 +281,43 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2aJ2om" id="7HRsFfsAiog" role="CpUAK">
+      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
+    </node>
+  </node>
+  <node concept="2ABfQD" id="7HRsFfsAbRe">
+    <property role="TrG5h" value="graph-editor" />
+    <node concept="2BsEeg" id="7HRsFfsAbRf" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="Gaphical" />
+      <property role="2BUmq6" value="Use graphical editor for register automata" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7HRsFfsA_es">
+    <property role="3GE5qa" value="transition" />
+    <ref role="1XX52x" to="pr2f:49V_FwqQoXj" resolve="Register" />
+    <node concept="3EZMnI" id="7HRsFfsAAGL" role="2wV5jI">
+      <node concept="3F0A7n" id="7HRsFfsAAGS" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="7HRsFfsAAGO" role="2iSdaV" />
+    </node>
+    <node concept="2aJ2om" id="7HRsFfsAAGJ" role="CpUAK">
+      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7HRsFfsBaQY">
+    <property role="3GE5qa" value="transition" />
+    <ref role="1XX52x" to="pr2f:49V_FwqQzwN" resolve="Variable" />
+    <node concept="3EZMnI" id="7HRsFfsBaR2" role="2wV5jI">
+      <node concept="3F0A7n" id="7HRsFfsBaR9" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="7HRsFfsBaR5" role="2iSdaV" />
+    </node>
+    <node concept="2aJ2om" id="7HRsFfsBaR0" role="CpUAK">
+      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
   </node>
 </model>

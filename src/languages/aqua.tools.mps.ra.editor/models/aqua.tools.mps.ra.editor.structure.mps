@@ -3,9 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="c0d65dc1-b9a2-4d72-9c00-3b5c4d9dc31a" name="aqua.tools.mps.ra.transition" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="pr2f" ref="r:2200fd73-0957-4808-b47c-2357ddf3466b(aqua.tools.mps.ra.transition.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -56,6 +58,20 @@
       <property role="20kJfa" value="transitions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4cCb6PI$LU9" resolve="Transition" />
+    </node>
+    <node concept="1TJgyj" id="7HRsFfsAaQJ" role="1TKVEi">
+      <property role="IQ2ns" value="8896705705719410095" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variables" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="pr2f:49V_FwqQzwN" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="7HRsFfsAbR9" role="1TKVEi">
+      <property role="IQ2ns" value="8896705705719414217" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="registers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="pr2f:49V_FwqQoXj" resolve="Register" />
     </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI$LU6">
