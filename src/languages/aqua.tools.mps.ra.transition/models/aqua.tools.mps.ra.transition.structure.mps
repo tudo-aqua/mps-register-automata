@@ -22,7 +22,6 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -60,7 +59,6 @@
   <node concept="1TIwiD" id="4cCb6PI_raO">
     <property role="EcuMT" value="4839166648127959732" />
     <property role="TrG5h" value="Transition" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="49V_FwqQyYA" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107309990" />
@@ -81,20 +79,6 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="update" />
       <ref role="20lvS9" node="4cCb6PI_raM" resolve="Update" />
-    </node>
-    <node concept="1TJgyj" id="49V_FwqRkBB" role="1TKVEi">
-      <property role="IQ2ns" value="4790588346107513319" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="registers" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="49V_FwqQoXj" resolve="Register" />
-    </node>
-    <node concept="1TJgyj" id="49V_FwqRkBG" role="1TKVEi">
-      <property role="IQ2ns" value="4790588346107513324" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variables" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="49V_FwqQzwN" resolve="Variable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI_raP">

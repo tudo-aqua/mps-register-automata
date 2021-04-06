@@ -329,15 +329,6 @@
   <node concept="24kQdi" id="49V_FwqRlkp">
     <ref role="1XX52x" to="pr2f:4cCb6PI_raO" resolve="Transition" />
     <node concept="3EZMnI" id="49V_FwqRlky" role="2wV5jI">
-      <node concept="3F2HdR" id="49V_FwqRllO" role="3EZMnx">
-        <ref role="1NtTu8" to="pr2f:49V_FwqRkBB" resolve="registers" />
-        <node concept="2iRkQZ" id="49V_FwqRllQ" role="2czzBx" />
-      </node>
-      <node concept="3F2HdR" id="49V_FwqRlmd" role="3EZMnx">
-        <ref role="1NtTu8" to="pr2f:49V_FwqRkBG" resolve="variables" />
-        <node concept="2iRkQZ" id="49V_FwqRlmf" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="49V_FwqRlms" role="3EZMnx" />
       <node concept="VPM3Z" id="49V_FwqRlk$" role="3F10Kt" />
       <node concept="2iRkQZ" id="49V_FwqRlkB" role="2iSdaV" />
       <node concept="3EZMnI" id="49V_FwqRlkR" role="3EZMnx">
