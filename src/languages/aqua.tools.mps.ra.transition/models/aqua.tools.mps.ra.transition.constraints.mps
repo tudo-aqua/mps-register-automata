@@ -55,6 +55,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -204,6 +210,23 @@
               <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="35c_gC" id="49V_FwqRDkC" role="37wK5m">
                 <ref role="35c_gD" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="72MYeku5iEG" role="3cqZAp">
+          <node concept="3clFbS" id="72MYeku5iEI" role="3clFbx">
+            <node concept="3cpWs6" id="72MYeku5kU2" role="3cqZAp">
+              <node concept="3clFbT" id="72MYeku5kUc" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="72MYeku5jeJ" role="3clFbw">
+            <node concept="2DD5aU" id="72MYeku5iL4" role="2Oq$k0" />
+            <node concept="2Zo12i" id="72MYeku5Do5" role="2OqNvi">
+              <node concept="chp4Y" id="72MYeku5Dwt" role="2Zo12j">
+                <ref role="cht4Q" to="pr2f:72MYeku52$q" resolve="VariableAndRegisterReference" />
               </node>
             </node>
           </node>
