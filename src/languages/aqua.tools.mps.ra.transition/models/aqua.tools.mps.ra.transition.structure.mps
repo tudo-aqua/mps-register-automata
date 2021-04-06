@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -102,12 +103,12 @@
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="49V_FwqQoXp" role="1TKVEi">
-      <property role="IQ2ns" value="4790588346107268953" />
+    <node concept="1TJgyj" id="72MYeku52G0" role="1TKVEi">
+      <property role="IQ2ns" value="8120826741038263040" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="registers" />
+      <property role="20kJfa" value="references" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="49V_FwqQoXm" resolve="RegisterReference" />
+      <ref role="20lvS9" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqQoXj">
@@ -122,7 +123,7 @@
   <node concept="1TIwiD" id="49V_FwqQoXm">
     <property role="EcuMT" value="4790588346107268950" />
     <property role="TrG5h" value="RegisterReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
     <node concept="1TJgyj" id="49V_FwqQoXn" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107268951" />
       <property role="20kJfa" value="register" />
@@ -142,13 +143,19 @@
   <node concept="1TIwiD" id="49V_FwqSaAs">
     <property role="EcuMT" value="4790588346107734428" />
     <property role="TrG5h" value="VariableReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
     <node concept="1TJgyj" id="49V_FwqSdFG" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107747052" />
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="49V_FwqQzwN" resolve="Variable" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="72MYeku52$q">
+    <property role="EcuMT" value="8120826741038262554" />
+    <property role="TrG5h" value="VariableAndRegisterReference" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 
