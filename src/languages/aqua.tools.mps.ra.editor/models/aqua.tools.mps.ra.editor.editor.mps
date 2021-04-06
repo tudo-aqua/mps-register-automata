@@ -472,6 +472,7 @@
   </node>
   <node concept="2xDbr0" id="72MYekvccQO">
     <property role="TrG5h" value="State" />
+    <property role="3GE5qa" value="CustomShapes" />
     <node concept="1xmO9C" id="72MYekvccQP" role="1xmOgE">
       <property role="TrG5h" value="isInitial" />
       <node concept="10P_77" id="72MYekvccQT" role="1xmOb1" />
