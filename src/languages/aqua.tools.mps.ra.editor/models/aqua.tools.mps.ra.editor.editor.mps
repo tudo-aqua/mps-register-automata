@@ -303,7 +303,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7HRsFfsA_es">
-    <property role="3GE5qa" value="transition" />
+    <property role="3GE5qa" value="TransitionLanguage" />
     <ref role="1XX52x" to="pr2f:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="7HRsFfsAAGL" role="2wV5jI">
       <node concept="3F0A7n" id="7HRsFfsAAGS" role="3EZMnx">
@@ -316,7 +316,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7HRsFfsBaQY">
-    <property role="3GE5qa" value="transition" />
+    <property role="3GE5qa" value="TransitionLanguage" />
     <ref role="1XX52x" to="pr2f:49V_FwqQzwN" resolve="Variable" />
     <node concept="3EZMnI" id="7HRsFfsBaR2" role="2wV5jI">
       <node concept="3F0A7n" id="7HRsFfsBaR9" role="3EZMnx">
