@@ -187,6 +187,34 @@
   <node concept="18kY7G" id="72MYekvm3Bx">
     <property role="TrG5h" value="UniqueRegisterNames" />
     <node concept="3clFbS" id="72MYekvm3By" role="18ibNy">
+      <node concept="3SKdUt" id="12PSNpl1ORV" role="3cqZAp">
+        <node concept="1PaTwC" id="12PSNpl1ORW" role="1aUNEU">
+          <node concept="3oM_SD" id="12PSNpl1ORX" role="1PaTwD">
+            <property role="3oM_SC" value="Setup" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OSP" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OSS" role="1PaTwD">
+            <property role="3oM_SC" value="hashset" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OSW" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OT1" role="1PaTwD">
+            <property role="3oM_SC" value="stores" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OT7" role="1PaTwD">
+            <property role="3oM_SC" value="already" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OTe" role="1PaTwD">
+            <property role="3oM_SC" value="existing" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl1OTm" role="1PaTwD">
+            <property role="3oM_SC" value="registers" />
+          </node>
+        </node>
+      </node>
       <node concept="3cpWs8" id="72MYekvm3Cn" role="3cqZAp">
         <node concept="3cpWsn" id="72MYekvm3Cq" role="3cpWs9">
           <property role="TrG5h" value="registerNames" />
@@ -213,6 +241,28 @@
           <node concept="2es0OD" id="72MYekvm7It" role="2OqNvi">
             <node concept="1bVj0M" id="72MYekvm7Iv" role="23t8la">
               <node concept="3clFbS" id="72MYekvm7Iw" role="1bW5cS">
+                <node concept="3SKdUt" id="12PSNpl1PoC" role="3cqZAp">
+                  <node concept="1PaTwC" id="12PSNpl1PoD" role="1aUNEU">
+                    <node concept="3oM_SD" id="12PSNpl1PoE" role="1PaTwD">
+                      <property role="3oM_SC" value="The" />
+                    </node>
+                    <node concept="3oM_SD" id="12PSNpl1PuW" role="1PaTwD">
+                      <property role="3oM_SC" value="current" />
+                    </node>
+                    <node concept="3oM_SD" id="12PSNpl1Q1w" role="1PaTwD">
+                      <property role="3oM_SC" value="register" />
+                    </node>
+                    <node concept="3oM_SD" id="12PSNpl1Q1$" role="1PaTwD">
+                      <property role="3oM_SC" value="does" />
+                    </node>
+                    <node concept="3oM_SD" id="12PSNpl1QcN" role="1PaTwD">
+                      <property role="3oM_SC" value="already" />
+                    </node>
+                    <node concept="3oM_SD" id="12PSNpl1QwK" role="1PaTwD">
+                      <property role="3oM_SC" value="exists" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbJ" id="72MYekvm7TT" role="3cqZAp">
                   <node concept="3clFbS" id="72MYekvm7TV" role="3clFbx">
                     <node concept="2MkqsV" id="72MYekvm9Vy" role="3cqZAp">
@@ -231,6 +281,9 @@
                       </node>
                       <node concept="37vLTw" id="72MYekvmaAQ" role="1urrMF">
                         <ref role="3cqZAo" node="72MYekvm7Ix" resolve="it" />
+                      </node>
+                      <node concept="3Cnw8n" id="12PSNpl1WXa" role="1urrFz">
+                        <ref role="QpYPw" node="12PSNpl1phG" resolve="RemoveRegister" />
                       </node>
                     </node>
                   </node>
@@ -253,6 +306,34 @@
                   </node>
                   <node concept="9aQIb" id="72MYekvmccB" role="9aQIa">
                     <node concept="3clFbS" id="72MYekvmccC" role="9aQI4">
+                      <node concept="3SKdUt" id="12PSNpl1Rno" role="3cqZAp">
+                        <node concept="1PaTwC" id="12PSNpl1Rnp" role="1aUNEU">
+                          <node concept="3oM_SD" id="12PSNpl1Rnq" role="1PaTwD">
+                            <property role="3oM_SC" value="Add" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rtc" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rtf" role="1PaTwD">
+                            <property role="3oM_SC" value="current" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rtj" role="1PaTwD">
+                            <property role="3oM_SC" value="register" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rto" role="1PaTwD">
+                            <property role="3oM_SC" value="to" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rtu" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1Rt_" role="1PaTwD">
+                            <property role="3oM_SC" value="existing" />
+                          </node>
+                          <node concept="3oM_SD" id="12PSNpl1RL$" role="1PaTwD">
+                            <property role="3oM_SC" value="registers" />
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="72MYekvmcgS" role="3cqZAp">
                         <node concept="2OqwBi" id="72MYekvmd1U" role="3clFbG">
                           <node concept="37vLTw" id="72MYekvmcgQ" role="2Oq$k0">
@@ -464,7 +545,7 @@
         <node concept="3clFbS" id="12PSNpl1f7x" role="3clFbx">
           <node concept="a7r0C" id="12PSNpl1lkT" role="3cqZAp">
             <node concept="3Cnw8n" id="12PSNpl1Eh1" role="1urrFz">
-              <ref role="QpYPw" node="12PSNpl1phG" resolve="RemoveUnusedRegister" />
+              <ref role="QpYPw" node="12PSNpl1phG" resolve="RemoveRegister" />
             </node>
             <node concept="Xl_RD" id="12PSNpl1lle" role="a7wSD">
               <property role="Xl_RC" value="Unused register" />
@@ -494,7 +575,7 @@
     </node>
   </node>
   <node concept="Q5z_Y" id="12PSNpl1phG">
-    <property role="TrG5h" value="RemoveUnusedRegister" />
+    <property role="TrG5h" value="RemoveRegister" />
     <node concept="Q5ZZ6" id="12PSNpl1phH" role="Q6x$H">
       <node concept="3clFbS" id="12PSNpl1phI" role="2VODD2">
         <node concept="3SKdUt" id="12PSNpl1_0u" role="3cqZAp">
@@ -511,10 +592,7 @@
             <node concept="3oM_SD" id="12PSNpl1_5r" role="1PaTwD">
               <property role="3oM_SC" value="an" />
             </node>
-            <node concept="3oM_SD" id="12PSNpl1_5H" role="1PaTwD">
-              <property role="3oM_SC" value="unused" />
-            </node>
-            <node concept="3oM_SD" id="12PSNpl1_60" role="1PaTwD">
+            <node concept="3oM_SD" id="12PSNpl1SAR" role="1PaTwD">
               <property role="3oM_SC" value="register" />
             </node>
             <node concept="3oM_SD" id="12PSNpl1_6w" role="1PaTwD">
@@ -630,7 +708,7 @@
       <node concept="3clFbS" id="12PSNpl1EsX" role="2VODD2">
         <node concept="3clFbF" id="12PSNpl1EzB" role="3cqZAp">
           <node concept="Xl_RD" id="12PSNpl1EzA" role="3clFbG">
-            <property role="Xl_RC" value="Remove unused register" />
+            <property role="Xl_RC" value="Remove register" />
           </node>
         </node>
       </node>
