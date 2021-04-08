@@ -526,7 +526,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7HRsFfsA_es">
-    <property role="3GE5qa" value="TransitionLanguage" />
+    <property role="3GE5qa" value="" />
     <ref role="1XX52x" to="4cus:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="7HRsFfsAAGL" role="2wV5jI">
       <node concept="3F0A7n" id="7HRsFfsAAGS" role="3EZMnx">
@@ -535,19 +535,6 @@
       <node concept="l2Vlx" id="7HRsFfsAAGO" role="2iSdaV" />
     </node>
     <node concept="2aJ2om" id="7HRsFfsAAGJ" role="CpUAK">
-      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="7HRsFfsBaQY">
-    <property role="3GE5qa" value="Transition" />
-    <ref role="1XX52x" to="4cus:49V_FwqQzwN" resolve="Variable" />
-    <node concept="3EZMnI" id="7HRsFfsBaR2" role="2wV5jI">
-      <node concept="3F0A7n" id="7HRsFfsBaR9" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="l2Vlx" id="7HRsFfsBaR5" role="2iSdaV" />
-    </node>
-    <node concept="2aJ2om" id="7HRsFfsBaR0" role="CpUAK">
       <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
   </node>
@@ -2319,7 +2306,7 @@
     <node concept="3EZMnI" id="49V_FwqRljO" role="2wV5jI">
       <node concept="3F2HdR" id="49V_FwqRljV" role="3EZMnx">
         <property role="2czwfO" value=";" />
-        <ref role="1NtTu8" to="4cus:49V_FwqRkXK" resolve="assignements" />
+        <ref role="1NtTu8" to="4cus:49V_FwqRkXK" resolve="assignments" />
         <node concept="l2Vlx" id="49V_FwqRljX" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="49V_FwqRljR" role="2iSdaV" />
@@ -2329,9 +2316,6 @@
     <property role="3GE5qa" value="Transition" />
     <ref role="1XX52x" to="4cus:49V_FwqQzwN" resolve="Variable" />
     <node concept="3EZMnI" id="49V_FwqRino" role="2wV5jI">
-      <node concept="3F0ifn" id="49V_FwqRinv" role="3EZMnx">
-        <property role="3F0ifm" value="Variable:" />
-      </node>
       <node concept="3F0A7n" id="49V_FwqRin_" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
