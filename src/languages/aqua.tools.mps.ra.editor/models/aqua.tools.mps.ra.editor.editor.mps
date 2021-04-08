@@ -58,7 +58,6 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
-      <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -251,16 +250,8 @@
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="3EZMnI" id="7HRsFfsAseU" role="2wV5jI">
       <node concept="3EZMnI" id="7HRsFfsAB4B" role="3EZMnx">
-        <node concept="3F0ifn" id="7HRsFfsAS2z" role="3EZMnx">
-          <property role="3F0ifm" value="Variables:" />
-        </node>
-        <node concept="3F2HdR" id="7HRsFfsAsj6" role="3EZMnx">
-          <ref role="1NtTu8" to="4cus:7HRsFfsAaQJ" resolve="variables" />
-          <node concept="2iRkQZ" id="7HRsFfsAS41" role="2czzBx" />
-        </node>
         <node concept="VPM3Z" id="7HRsFfsAB4D" role="3F10Kt" />
         <node concept="l2Vlx" id="7HRsFfsAB4G" role="2iSdaV" />
-        <node concept="3XFhqQ" id="7HRsFfsBl9L" role="3EZMnx" />
         <node concept="3F0ifn" id="7HRsFfsAB5l" role="3EZMnx">
           <property role="3F0ifm" value="Registers:" />
         </node>
