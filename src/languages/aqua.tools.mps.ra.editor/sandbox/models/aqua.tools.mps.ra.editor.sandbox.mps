@@ -47,7 +47,7 @@
         <child id="4790588346107309990" name="label" index="1oCr$u" />
       </concept>
       <concept id="4839166648127959730" name="aqua.tools.mps.ra.editor.structure.Update" flags="ng" index="HJpVv">
-        <child id="4790588346107514736" name="assignements" index="1oDHB8" />
+        <child id="4790588346107514736" name="assignments" index="1oDHB8" />
       </concept>
       <concept id="4790588346107734428" name="aqua.tools.mps.ra.editor.structure.VariableReference" flags="ng" index="1oANW$">
         <reference id="4790588346107747052" name="variable" index="1oAOLk" />
@@ -281,20 +281,20 @@
             <property role="3clFbU" value="true" />
           </node>
         </node>
-        <node concept="HJpVv" id="12PSNplaQqb" role="1oCqlG">
-          <node concept="37vLTI" id="12PSNplaQqc" role="1oDHB8">
-            <node concept="1oCxBI" id="12PSNplaQqo" role="37vLTJ">
+        <node concept="HJpVv" id="2CSZ568ArjG" role="1oCqlG">
+          <node concept="37vLTI" id="2CSZ568D$7E" role="1oDHB8">
+            <node concept="1oCxBI" id="2CSZ568D$7P" role="37vLTJ">
               <ref role="1oCxBJ" node="12PSNpl7yvF" resolve="x1" />
             </node>
-            <node concept="1oANW$" id="12PSNplaQqw" role="37vLTx">
+            <node concept="1oANW$" id="2CSZ568D$7X" role="37vLTx">
               <ref role="1oAOLk" node="12PSNpl7yvp" resolve="p1" />
             </node>
           </node>
-          <node concept="37vLTI" id="12PSNplc3f2" role="1oDHB8">
-            <node concept="1oCxBI" id="12PSNplc3fg" role="37vLTJ">
+          <node concept="37vLTI" id="2CSZ568D$84" role="1oDHB8">
+            <node concept="1oCxBI" id="2CSZ568D$8i" role="37vLTJ">
               <ref role="1oCxBJ" node="12PSNpl7yvH" resolve="x2" />
             </node>
-            <node concept="1oANW$" id="12PSNplc3fo" role="37vLTx">
+            <node concept="1oANW$" id="2CSZ568D$8q" role="37vLTx">
               <ref role="1oAOLk" node="12PSNpl7yvr" resolve="p2" />
             </node>
           </node>
@@ -381,6 +381,16 @@
         <node concept="HJpVo" id="12PSNpl7yQM" role="1oCqlD">
           <node concept="3clFbT" id="12PSNpl7ySB" role="1oC5px">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+        <node concept="HJpVv" id="2CSZ568Ezh8" role="1oCqlG">
+          <node concept="37vLTI" id="2CSZ568Ezh9" role="1oDHB8">
+            <node concept="1oCxBI" id="2CSZ568Ezhl" role="37vLTJ">
+              <ref role="1oCxBJ" node="12PSNpl7yvH" resolve="x2" />
+            </node>
+            <node concept="1oANW$" id="2CSZ568Ezht" role="37vLTx">
+              <ref role="1oAOLk" node="12PSNpl7yS_" resolve="p1" />
+            </node>
           </node>
         </node>
       </node>
