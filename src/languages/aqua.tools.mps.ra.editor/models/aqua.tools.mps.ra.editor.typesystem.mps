@@ -8,7 +8,6 @@
   <imports>
     <import index="4cus" ref="r:21da5544-2cb1-4bc6-8abc-4ed5bfb77d43(aqua.tools.mps.ra.editor.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="pr2f" ref="r:2200fd73-0957-4808-b47c-2357ddf3466b(aqua.tools.mps.ra.transition.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -456,7 +455,7 @@
           <property role="TrG5h" value="registersReferenced" />
           <node concept="A3Dl8" id="12PSNpl0K5B" role="1tU5fm">
             <node concept="3Tqbb2" id="12PSNpl0K6c" role="A3Ik2">
-              <ref role="ehGHo" to="pr2f:49V_FwqQoXj" resolve="Register" />
+              <ref role="ehGHo" to="4cus:49V_FwqQoXj" resolve="Register" />
             </node>
           </node>
           <node concept="2OqwBi" id="12PSNpl1k9T" role="33vP2m">
@@ -467,8 +466,8 @@
                 </node>
                 <node concept="2Rf3mk" id="12PSNpl0Kq5" role="2OqNvi">
                   <node concept="1xMEDy" id="12PSNpl0Kq7" role="1xVPHs">
-                    <node concept="chp4Y" id="12PSNpl0Kvg" role="ri$Ld">
-                      <ref role="cht4Q" to="pr2f:49V_FwqQoXm" resolve="RegisterReference" />
+                    <node concept="chp4Y" id="12PSNpl49kt" role="ri$Ld">
+                      <ref role="cht4Q" to="4cus:49V_FwqQoXm" resolve="RegisterReference" />
                     </node>
                   </node>
                 </node>
@@ -481,8 +480,8 @@
                         <node concept="37vLTw" id="12PSNpl1jcB" role="2Oq$k0">
                           <ref role="3cqZAo" node="12PSNpl1j3I" resolve="it" />
                         </node>
-                        <node concept="3TrEf2" id="12PSNpl1jCJ" role="2OqNvi">
-                          <ref role="3Tt5mk" to="pr2f:49V_FwqQoXn" resolve="register" />
+                        <node concept="3TrEf2" id="12PSNpl49DA" role="2OqNvi">
+                          <ref role="3Tt5mk" to="4cus:49V_FwqQoXn" resolve="register" />
                         </node>
                       </node>
                     </node>
@@ -571,7 +570,7 @@
     </node>
     <node concept="1YaCAy" id="12PSNpl0JG6" role="1YuTPh">
       <property role="TrG5h" value="register" />
-      <ref role="1YaFvo" to="pr2f:49V_FwqQoXj" resolve="Register" />
+      <ref role="1YaFvo" to="4cus:49V_FwqQoXj" resolve="Register" />
     </node>
   </node>
   <node concept="Q5z_Y" id="12PSNpl1phG">
@@ -610,11 +609,11 @@
           <node concept="3cpWsn" id="12PSNpl1pil" role="3cpWs9">
             <property role="TrG5h" value="register" />
             <node concept="3Tqbb2" id="12PSNpl1pih" role="1tU5fm">
-              <ref role="ehGHo" to="pr2f:49V_FwqQoXj" resolve="Register" />
+              <ref role="ehGHo" to="4cus:49V_FwqQoXj" resolve="Register" />
             </node>
             <node concept="1PxgMI" id="12PSNpl1ps4" role="33vP2m">
-              <node concept="chp4Y" id="12PSNpl1psK" role="3oSUPX">
-                <ref role="cht4Q" to="pr2f:49V_FwqQoXj" resolve="Register" />
+              <node concept="chp4Y" id="12PSNpl48Oz" role="3oSUPX">
+                <ref role="cht4Q" to="4cus:49V_FwqQoXj" resolve="Register" />
               </node>
               <node concept="Q6c8r" id="12PSNpl1pjg" role="1m5AlR" />
             </node>
@@ -712,6 +711,208 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="12PSNpl22p6">
+    <property role="TrG5h" value="UnusedVariable" />
+    <node concept="3clFbS" id="12PSNpl22p7" role="18ibNy">
+      <node concept="3SKdUt" id="12PSNpl3nTF" role="3cqZAp">
+        <node concept="1PaTwC" id="12PSNpl3nTG" role="1aUNEU">
+          <node concept="3oM_SD" id="12PSNpl3nTH" role="1PaTwD">
+            <property role="3oM_SC" value="Get" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTI" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTJ" role="1PaTwD">
+            <property role="3oM_SC" value="Transition" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="12PSNpl3nTK" role="3cqZAp">
+        <node concept="3cpWsn" id="12PSNpl3nTL" role="3cpWs9">
+          <property role="TrG5h" value="transition" />
+          <node concept="3Tqbb2" id="12PSNpl3nTM" role="1tU5fm">
+            <ref role="ehGHo" to="4cus:4cCb6PI_raO" resolve="Transition" />
+          </node>
+          <node concept="2OqwBi" id="12PSNpl3nTN" role="33vP2m">
+            <node concept="1YBJjd" id="12PSNpl2347" role="2Oq$k0">
+              <ref role="1YBMHb" node="12PSNpl22pf" resolve="variable" />
+            </node>
+            <node concept="2Xjw5R" id="12PSNpl3nTO" role="2OqNvi">
+              <node concept="1xMEDy" id="12PSNpl3nTP" role="1xVPHs">
+                <node concept="chp4Y" id="12PSNpl4a3a" role="ri$Ld">
+                  <ref role="cht4Q" to="4cus:4cCb6PI_raO" resolve="Transition" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3SKdUt" id="12PSNpl3nTQ" role="3cqZAp">
+        <node concept="1PaTwC" id="12PSNpl3nTR" role="1aUNEU">
+          <node concept="3oM_SD" id="12PSNpl3nTS" role="1PaTwD">
+            <property role="3oM_SC" value="Get" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTT" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTU" role="1PaTwD">
+            <property role="3oM_SC" value="list" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTV" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTW" role="1PaTwD">
+            <property role="3oM_SC" value="all" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTX" role="1PaTwD">
+            <property role="3oM_SC" value="variables" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTY" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nTZ" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU0" role="1PaTwD">
+            <property role="3oM_SC" value="referenced" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU1" role="1PaTwD">
+            <property role="3oM_SC" value="somewhere" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU2" role="1PaTwD">
+            <property role="3oM_SC" value="under" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU3" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU4" role="1PaTwD">
+            <property role="3oM_SC" value="parent" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU5" role="1PaTwD">
+            <property role="3oM_SC" value="Transition" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="12PSNpl3nU6" role="3cqZAp">
+        <node concept="3cpWsn" id="12PSNpl3nU7" role="3cpWs9">
+          <property role="TrG5h" value="variablesReferenced" />
+          <node concept="A3Dl8" id="12PSNpl3nU8" role="1tU5fm">
+            <node concept="3Tqbb2" id="12PSNpl3nU9" role="A3Ik2">
+              <ref role="ehGHo" to="4cus:49V_FwqQzwN" resolve="Variable" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="12PSNpl3nUa" role="33vP2m">
+            <node concept="2OqwBi" id="12PSNpl3nUb" role="2Oq$k0">
+              <node concept="2OqwBi" id="12PSNpl3nUc" role="2Oq$k0">
+                <node concept="37vLTw" id="12PSNpl3nUd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="12PSNpl3nTL" resolve="transition" />
+                </node>
+                <node concept="2Rf3mk" id="12PSNpl3nUe" role="2OqNvi">
+                  <node concept="1xMEDy" id="12PSNpl3nUf" role="1xVPHs">
+                    <node concept="chp4Y" id="12PSNpl4abd" role="ri$Ld">
+                      <ref role="cht4Q" to="4cus:49V_FwqSaAs" resolve="VariableReference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3$u5V9" id="12PSNpl3nUg" role="2OqNvi">
+                <node concept="1bVj0M" id="12PSNpl3nUh" role="23t8la">
+                  <node concept="3clFbS" id="12PSNpl3nUi" role="1bW5cS">
+                    <node concept="3clFbF" id="12PSNpl3nUj" role="3cqZAp">
+                      <node concept="2OqwBi" id="12PSNpl3nUk" role="3clFbG">
+                        <node concept="37vLTw" id="12PSNpl3nUl" role="2Oq$k0">
+                          <ref role="3cqZAo" node="12PSNpl3nUm" resolve="it" />
+                        </node>
+                        <node concept="3TrEf2" id="12PSNpl4awm" role="2OqNvi">
+                          <ref role="3Tt5mk" to="4cus:49V_FwqSdFG" resolve="variable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="12PSNpl3nUm" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="12PSNpl3nUn" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1VAtEI" id="12PSNpl3nUo" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3SKdUt" id="12PSNpl3nUp" role="3cqZAp">
+        <node concept="1PaTwC" id="12PSNpl3nUq" role="1aUNEU">
+          <node concept="3oM_SD" id="12PSNpl3nUr" role="1PaTwD">
+            <property role="3oM_SC" value="If" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUs" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUt" role="1PaTwD">
+            <property role="3oM_SC" value="current" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUu" role="1PaTwD">
+            <property role="3oM_SC" value="variable" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUv" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUw" role="1PaTwD">
+            <property role="3oM_SC" value="not" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUx" role="1PaTwD">
+            <property role="3oM_SC" value="referenced" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUy" role="1PaTwD">
+            <property role="3oM_SC" value="it" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUz" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU$" role="1PaTwD">
+            <property role="3oM_SC" value="unused" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nU_" role="1PaTwD">
+            <property role="3oM_SC" value="-&gt;" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUA" role="1PaTwD">
+            <property role="3oM_SC" value="show" />
+          </node>
+          <node concept="3oM_SD" id="12PSNpl3nUB" role="1PaTwD">
+            <property role="3oM_SC" value="warning" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="12PSNpl3nUC" role="3cqZAp">
+        <node concept="3clFbS" id="12PSNpl3nUD" role="3clFbx">
+          <node concept="a7r0C" id="12PSNpl3nUE" role="3cqZAp">
+            <node concept="Xl_RD" id="12PSNpl3nUF" role="a7wSD">
+              <property role="Xl_RC" value="Unused variable" />
+            </node>
+            <node concept="1YBJjd" id="12PSNpl23yc" role="1urrMF">
+              <ref role="1YBMHb" node="12PSNpl22pf" resolve="variable" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="12PSNpl3nUG" role="3clFbw">
+          <node concept="2OqwBi" id="12PSNpl3nUH" role="3fr31v">
+            <node concept="37vLTw" id="12PSNpl3nUI" role="2Oq$k0">
+              <ref role="3cqZAo" node="12PSNpl3nU7" resolve="variablesReferenced" />
+            </node>
+            <node concept="3JPx81" id="12PSNpl3nUJ" role="2OqNvi">
+              <node concept="1YBJjd" id="12PSNpl23kN" role="25WWJ7">
+                <ref role="1YBMHb" node="12PSNpl22pf" resolve="variable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="12PSNpl22pf" role="1YuTPh">
+      <property role="TrG5h" value="variable" />
+      <ref role="1YaFvo" to="4cus:49V_FwqQzwN" resolve="Variable" />
     </node>
   </node>
 </model>

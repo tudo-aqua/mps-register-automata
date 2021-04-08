@@ -5,9 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.editor/aqua.tools.mps.ra.editor.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.editor/runtime/aqua.tools.mps.ra.editor.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.editor/sandbox/aqua.tools.mps.ra.editor.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.transition/aqua.tools.mps.ra.transition.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.transition/runtime/aqua.tools.mps.ra.transition.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/aqua.tools.mps.ra.transition/sandbox/aqua.tools.mps.ra.transition.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
