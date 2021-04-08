@@ -210,7 +210,7 @@
     <node concept="1TJgyj" id="49V_FwqRkXK" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107514736" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="assignements" />
+      <property role="20kJfa" value="assignments" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" to="tpee:fz7vLUm" resolve="AssignmentExpression" />
     </node>
