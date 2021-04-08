@@ -1820,22 +1820,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="12PSNpl38AD">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="4cus:12PSNpl2URd" resolve="AssignmentExpression" />
-    <node concept="3EZMnI" id="12PSNpl38AF" role="2wV5jI">
-      <node concept="3F1sOY" id="12PSNpl38AM" role="3EZMnx">
-        <ref role="1NtTu8" to="4cus:12PSNpl2URe" resolve="leftValue" />
-      </node>
-      <node concept="3F0ifn" id="12PSNpl38AS" role="3EZMnx">
-        <property role="3F0ifm" value="=" />
-      </node>
-      <node concept="3F1sOY" id="12PSNpl38Be" role="3EZMnx">
-        <ref role="1NtTu8" to="4cus:12PSNpl2URg" resolve="rightValue" />
-      </node>
-      <node concept="l2Vlx" id="12PSNpl38AI" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="49V_FwqRobG">
     <property role="3GE5qa" value="Transition" />
     <ref role="1XX52x" to="4cus:4cCb6PI_raP" resolve="Guard" />

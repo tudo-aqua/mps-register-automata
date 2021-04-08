@@ -117,27 +117,6 @@
       <ref role="20lvS9" node="4cCb6PI_raO" resolve="Transition" />
     </node>
   </node>
-  <node concept="1TIwiD" id="12PSNpl2URd">
-    <property role="EcuMT" value="1204118297886043597" />
-    <property role="TrG5h" value="AssignmentExpression" />
-    <property role="34LRSv" value="=" />
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="12PSNpl2URe" role="1TKVEi">
-      <property role="IQ2ns" value="1204118297886043598" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="leftValue" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="49V_FwqQoXm" resolve="RegisterReference" />
-    </node>
-    <node concept="1TJgyj" id="12PSNpl2URg" role="1TKVEi">
-      <property role="IQ2ns" value="1204118297886043600" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rightValue" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4cCb6PI_raP">
     <property role="EcuMT" value="4839166648127959733" />
     <property role="TrG5h" value="Guard" />
@@ -233,7 +212,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="assignements" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="12PSNpl2URd" resolve="AssignmentExpression" />
+      <ref role="20lvS9" to="tpee:fz7vLUm" resolve="AssignmentExpression" />
     </node>
     <node concept="PrWs8" id="12PSNpl3gDF" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />

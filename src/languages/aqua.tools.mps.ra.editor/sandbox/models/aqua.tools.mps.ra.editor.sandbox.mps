@@ -8,6 +8,11 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
@@ -43,10 +48,6 @@
       </concept>
       <concept id="4839166648127959730" name="aqua.tools.mps.ra.editor.structure.Update" flags="ng" index="HJpVv">
         <child id="4790588346107514736" name="assignements" index="1oDHB8" />
-      </concept>
-      <concept id="1204118297886043597" name="aqua.tools.mps.ra.editor.structure.AssignmentExpression" flags="ng" index="15J$VV">
-        <child id="1204118297886043600" name="rightValue" index="15J$VA" />
-        <child id="1204118297886043598" name="leftValue" index="15J$VS" />
       </concept>
       <concept id="4790588346107734428" name="aqua.tools.mps.ra.editor.structure.VariableReference" flags="ng" index="1oANW$">
         <reference id="4790588346107747052" name="variable" index="1oAOLk" />
@@ -280,20 +281,20 @@
             <property role="3clFbU" value="true" />
           </node>
         </node>
-        <node concept="HJpVv" id="12PSNpl7yvz" role="1oCqlG">
-          <node concept="15J$VV" id="12PSNpl7yv$" role="1oDHB8">
-            <node concept="1oCxBI" id="12PSNpl7yvK" role="15J$VS">
+        <node concept="HJpVv" id="12PSNplaQqb" role="1oCqlG">
+          <node concept="37vLTI" id="12PSNplaQqc" role="1oDHB8">
+            <node concept="1oCxBI" id="12PSNplaQqo" role="37vLTJ">
               <ref role="1oCxBJ" node="12PSNpl7yvF" resolve="x1" />
             </node>
-            <node concept="1oANW$" id="12PSNpl7yvN" role="15J$VA">
+            <node concept="1oANW$" id="12PSNplaQqw" role="37vLTx">
               <ref role="1oAOLk" node="12PSNpl7yvp" resolve="p1" />
             </node>
           </node>
-          <node concept="15J$VV" id="12PSNpl7yvQ" role="1oDHB8">
-            <node concept="1oCxBI" id="12PSNpl7yvZ" role="15J$VS">
+          <node concept="37vLTI" id="12PSNplc3f2" role="1oDHB8">
+            <node concept="1oCxBI" id="12PSNplc3fg" role="37vLTJ">
               <ref role="1oCxBJ" node="12PSNpl7yvH" resolve="x2" />
             </node>
-            <node concept="1oANW$" id="12PSNpl7yw2" role="15J$VA">
+            <node concept="1oANW$" id="12PSNplc3fo" role="37vLTx">
               <ref role="1oAOLk" node="12PSNpl7yvr" resolve="p2" />
             </node>
           </node>
@@ -380,16 +381,6 @@
         <node concept="HJpVo" id="12PSNpl7yQM" role="1oCqlD">
           <node concept="3clFbT" id="12PSNpl7ySB" role="1oC5px">
             <property role="3clFbU" value="true" />
-          </node>
-        </node>
-        <node concept="HJpVv" id="12PSNpl7ySG" role="1oCqlG">
-          <node concept="15J$VV" id="12PSNpl7ySH" role="1oDHB8">
-            <node concept="1oCxBI" id="12PSNpl7ySO" role="15J$VS">
-              <ref role="1oCxBJ" node="12PSNpl7yvH" resolve="x2" />
-            </node>
-            <node concept="1oANW$" id="12PSNpl7ySR" role="15J$VA">
-              <ref role="1oAOLk" node="12PSNpl7yS_" resolve="p1" />
-            </node>
           </node>
         </node>
       </node>
