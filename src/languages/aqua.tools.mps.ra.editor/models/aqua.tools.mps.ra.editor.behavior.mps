@@ -149,6 +149,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -157,6 +158,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="1P2gUi$3hSA">
+    <property role="3GE5qa" value="Transition" />
     <ref role="13h7C2" to="4cus:49V_FwqQoXg" resolve="Label" />
     <node concept="13hLZK" id="1P2gUi$3hSB" role="13h7CW">
       <node concept="3clFbS" id="1P2gUi$3hSC" role="2VODD2" />
@@ -228,6 +230,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="49V_FwqSAyd">
+    <property role="3GE5qa" value="Transition" />
     <ref role="13h7C2" to="4cus:49V_FwqQoXm" resolve="RegisterReference" />
     <node concept="13hLZK" id="49V_FwqSAye" role="13h7CW">
       <node concept="3clFbS" id="49V_FwqSAyf" role="2VODD2" />
@@ -257,6 +260,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1P2gUi$2szO">
+    <property role="3GE5qa" value="Transition" />
     <ref role="13h7C2" to="4cus:4cCb6PI_raO" resolve="Transition" />
     <node concept="13i0hz" id="1P2gUi$2szZ" role="13h7CS">
       <property role="TrG5h" value="getScope" />
@@ -315,6 +319,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="49V_FwqSDPX">
+    <property role="3GE5qa" value="Transition" />
     <ref role="13h7C2" to="4cus:49V_FwqSaAs" resolve="VariableReference" />
     <node concept="13hLZK" id="49V_FwqSDPY" role="13h7CW">
       <node concept="3clFbS" id="49V_FwqSDPZ" role="2VODD2" />

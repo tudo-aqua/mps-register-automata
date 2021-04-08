@@ -73,8 +73,14 @@
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="49V_FwqQKsj">
+    <property role="3GE5qa" value="Transition" />
     <ref role="1M2myG" to="4cus:4cCb6PI_raP" resolve="Guard" />
     <node concept="9SLcT" id="49V_FwqR_gQ" role="9SGkU">
       <node concept="3clFbS" id="49V_FwqR_gR" role="2VODD2">
@@ -262,9 +268,11 @@
     </node>
   </node>
   <node concept="1M2fIO" id="12PSNpl3i3t">
+    <property role="3GE5qa" value="Transition" />
     <ref role="1M2myG" to="4cus:49V_FwqQoXm" resolve="RegisterReference" />
   </node>
   <node concept="1M2fIO" id="1P2gUi$2VK0">
+    <property role="3GE5qa" value="Transition" />
     <ref role="1M2myG" to="4cus:49V_FwqSaAs" resolve="VariableReference" />
     <node concept="1N5Pfh" id="1P2gUi$2VK1" role="1Mr941">
       <ref role="1N5Vy1" to="4cus:49V_FwqSdFG" resolve="variable" />

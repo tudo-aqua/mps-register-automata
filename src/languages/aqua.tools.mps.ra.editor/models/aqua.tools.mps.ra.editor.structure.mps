@@ -39,6 +39,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -118,6 +121,7 @@
     <property role="EcuMT" value="1204118297886043597" />
     <property role="TrG5h" value="AssignmentExpression" />
     <property role="34LRSv" value="=" />
+    <property role="3GE5qa" value="Expressions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="12PSNpl2URe" role="1TKVEi">
       <property role="IQ2ns" value="1204118297886043598" />
@@ -137,6 +141,7 @@
   <node concept="1TIwiD" id="4cCb6PI_raP">
     <property role="EcuMT" value="4839166648127959733" />
     <property role="TrG5h" value="Guard" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="49V_FwqQW3p" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107412697" />
@@ -149,6 +154,7 @@
   <node concept="1TIwiD" id="49V_FwqQoXg">
     <property role="EcuMT" value="4790588346107268944" />
     <property role="TrG5h" value="Label" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="49V_FwqQoXh" role="1TKVEl">
       <property role="IQ2nx" value="4790588346107268945" />
@@ -178,6 +184,7 @@
   <node concept="1TIwiD" id="49V_FwqQoXm">
     <property role="EcuMT" value="4790588346107268950" />
     <property role="TrG5h" value="RegisterReference" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
     <node concept="1TJgyj" id="49V_FwqQoXn" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107268951" />
@@ -189,6 +196,7 @@
   <node concept="1TIwiD" id="4cCb6PI_raO">
     <property role="EcuMT" value="4839166648127959732" />
     <property role="TrG5h" value="Transition" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="49V_FwqQyYA" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107309990" />
@@ -218,6 +226,7 @@
     <property role="EcuMT" value="4839166648127959730" />
     <property role="TrG5h" value="Update" />
     <property role="34LRSv" value="update" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="49V_FwqRkXK" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107514736" />
@@ -234,6 +243,7 @@
     <property role="EcuMT" value="4790588346107312179" />
     <property role="TrG5h" value="Variable" />
     <property role="34LRSv" value="variable" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="49V_FwqQzwO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -243,11 +253,13 @@
     <property role="EcuMT" value="8120826741038262554" />
     <property role="TrG5h" value="VariableAndRegisterReference" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="49V_FwqSaAs">
     <property role="EcuMT" value="4790588346107734428" />
     <property role="TrG5h" value="VariableReference" />
+    <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" node="72MYeku52$q" resolve="VariableAndRegisterReference" />
     <node concept="1TJgyj" id="49V_FwqSdFG" role="1TKVEi">
       <property role="IQ2ns" value="4790588346107747052" />
