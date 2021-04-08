@@ -259,7 +259,7 @@
       </node>
       <node concept="3F2HdR" id="72MYeku56el" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="pr2f:72MYeku52G0" resolve="references" />
+        <ref role="1NtTu8" to="pr2f:72MYeku52G0" resolve="variables" />
         <node concept="l2Vlx" id="72MYeku56en" role="2czzBx" />
         <node concept="pkWqt" id="72MYeku5Hat" role="pqm2j">
           <node concept="3clFbS" id="72MYeku5Hau" role="2VODD2">
