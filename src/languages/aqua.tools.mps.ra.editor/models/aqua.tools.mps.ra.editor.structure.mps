@@ -264,7 +264,7 @@
   </node>
   <node concept="PlHQZ" id="3TMopQL2TJA">
     <property role="TrG5h" value="ITypedConcept" />
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="EcuMT" value="4499766307604539797" />
     <node concept="1TJgyj" id="3TMopQL3gKF" role="1TKVEi">
       <property role="IQ2ns" value="4499766307604728875" />
@@ -277,7 +277,7 @@
   <node concept="1TIwiD" id="3TMopQL3aqQ">
     <property role="EcuMT" value="4499766307604702902" />
     <property role="TrG5h" value="Type" />
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3TMopQL3gKz" role="PzmwI">
@@ -286,7 +286,7 @@
   </node>
   <node concept="1TIwiD" id="3TMopQL3ar5">
     <property role="EcuMT" value="4499766307604702917" />
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="TrG5h" value="TypeReference" />
     <ref role="1TJDcQ" node="3TMopQL3aqQ" resolve="Type" />
     <node concept="1TJgyj" id="3TMopQL3g8x" role="1TKVEi">
@@ -298,7 +298,7 @@
   </node>
   <node concept="1TIwiD" id="3TMopQL3arK">
     <property role="EcuMT" value="4499766307604702960" />
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="TrG5h" value="TypeDeclaration" />
     <ref role="1TJDcQ" node="3TMopQL3aqQ" resolve="Type" />
   </node>

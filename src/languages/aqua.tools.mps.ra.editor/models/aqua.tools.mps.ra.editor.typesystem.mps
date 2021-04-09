@@ -203,6 +203,7 @@
   </registry>
   <node concept="18kY7G" id="72MYekvm3Bx">
     <property role="TrG5h" value="UniqueRegisterNames" />
+    <property role="3GE5qa" value="Checks" />
     <node concept="3clFbS" id="72MYekvm3By" role="18ibNy">
       <node concept="3SKdUt" id="12PSNpl1ORV" role="3cqZAp">
         <node concept="1PaTwC" id="12PSNpl1ORW" role="1aUNEU">
@@ -388,6 +389,7 @@
   </node>
   <node concept="18kY7G" id="12PSNpl0JFX">
     <property role="TrG5h" value="UnusedRegisters" />
+    <property role="3GE5qa" value="Checks" />
     <node concept="3clFbS" id="12PSNpl0JFY" role="18ibNy">
       <node concept="3SKdUt" id="12PSNpl1Npo" role="3cqZAp">
         <node concept="1PaTwC" id="12PSNpl1Npp" role="1aUNEU">
@@ -593,6 +595,7 @@
   </node>
   <node concept="Q5z_Y" id="12PSNpl1phG">
     <property role="TrG5h" value="RemoveRegister" />
+    <property role="3GE5qa" value="Checks" />
     <node concept="Q5ZZ6" id="12PSNpl1phH" role="Q6x$H">
       <node concept="3clFbS" id="12PSNpl1phI" role="2VODD2">
         <node concept="3SKdUt" id="12PSNpl1_0u" role="3cqZAp">
@@ -733,7 +736,7 @@
   </node>
   <node concept="18kY7G" id="12PSNpl22p6">
     <property role="TrG5h" value="UnusedVariable" />
-    <property role="3GE5qa" value="Transition" />
+    <property role="3GE5qa" value="Checks" />
     <node concept="3clFbS" id="12PSNpl22p7" role="18ibNy">
       <node concept="3SKdUt" id="12PSNpl3nTF" role="3cqZAp">
         <node concept="1PaTwC" id="12PSNpl3nTG" role="1aUNEU">
@@ -1085,7 +1088,7 @@
   </node>
   <node concept="1YbPZF" id="3TMopQL38yJ">
     <property role="TrG5h" value="typeof_ITypedConcept" />
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <node concept="3clFbS" id="3TMopQL38yK" role="18ibNy">
       <node concept="1Z5TYs" id="3TMopQL38GI" role="3cqZAp">
         <node concept="mw_s8" id="3TMopQL38H0" role="1ZfhKB">
@@ -1115,7 +1118,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="3TMopQL4HL0">
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="TrG5h" value="typeof_TypeReference" />
     <node concept="3clFbS" id="3TMopQL4HL1" role="18ibNy">
       <node concept="1Z5TYs" id="3TMopQL4HWM" role="3cqZAp">
@@ -1146,7 +1149,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="3TMopQL4NOD">
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="TrG5h" value="typeof_Type" />
     <node concept="3clFbS" id="3TMopQL4NOE" role="18ibNy">
       <node concept="3clFbJ" id="3TMopQL4NZG" role="3cqZAp">
@@ -1226,7 +1229,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="3TMopQL4NOV">
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <property role="TrG5h" value="typeof_TypeDeclaration" />
     <node concept="3clFbS" id="3TMopQL4NOW" role="18ibNy">
       <node concept="1Z5TYs" id="3TMopQL4NZ5" role="3cqZAp">

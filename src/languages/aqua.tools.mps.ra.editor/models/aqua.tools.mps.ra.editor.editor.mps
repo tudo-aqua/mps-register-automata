@@ -2378,7 +2378,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3TMopQL3hoN">
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <ref role="1XX52x" to="4cus:3TMopQL3arK" resolve="TypeDeclaration" />
     <node concept="3EZMnI" id="3TMopQL3hoV" role="2wV5jI">
       <node concept="3F0A7n" id="3TMopQL3hp2" role="3EZMnx">
@@ -2388,7 +2388,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3TMopQL3vET">
-    <property role="3GE5qa" value="Type" />
+    <property role="3GE5qa" value="CustomTypes" />
     <ref role="1XX52x" to="4cus:3TMopQL3ar5" resolve="TypeReference" />
     <node concept="3EZMnI" id="3TMopQL3vF1" role="2wV5jI">
       <node concept="1iCGBv" id="3TMopQL3vF8" role="3EZMnx">
