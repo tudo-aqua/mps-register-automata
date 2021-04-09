@@ -37,6 +37,7 @@
         <child id="8120826741038097974" name="transition" index="1ICPVj" />
       </concept>
       <concept id="4839166648127790725" name="aqua.tools.mps.ra.editor.structure.RegisterAutomaton" flags="ng" index="HINbC">
+        <property id="4499766307605700579" name="description" index="2fqrTY" />
         <child id="8896705705719414217" name="registers" index="2BVWXU" />
         <child id="4839166648127790735" name="states" index="HINby" />
         <child id="4839166648127790737" name="transitions" index="HINbW" />
@@ -111,6 +112,8 @@
     </language>
   </registry>
   <node concept="HINbC" id="12PSNpl7yuc">
+    <property role="TrG5h" value="XMPPRegistration" />
+    <property role="2fqrTY" value="XMPP registrations and logins for a single user" />
     <node concept="1oCxBF" id="12PSNpl7yvF" role="2BVWXU">
       <property role="TrG5h" value="x1" />
       <node concept="2fvGtH" id="3TMopQL6fqq" role="2fvQQQ">

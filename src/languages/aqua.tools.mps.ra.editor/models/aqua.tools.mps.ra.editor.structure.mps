@@ -75,6 +75,14 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="49V_FwqQoXj" resolve="Register" />
     </node>
+    <node concept="PrWs8" id="3TMopQL6Iv8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="3TMopQL6XZz" role="1TKVEl">
+      <property role="IQ2nx" value="4499766307605700579" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI$LU6">
     <property role="EcuMT" value="4839166648127790726" />

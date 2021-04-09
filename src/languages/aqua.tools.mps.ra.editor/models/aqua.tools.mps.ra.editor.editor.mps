@@ -339,6 +339,27 @@
   <node concept="24kQdi" id="4cCb6PI$MhT">
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="3EZMnI" id="7HRsFfsAseU" role="2wV5jI">
+      <node concept="3EZMnI" id="3TMopQL6JtL" role="3EZMnx">
+        <node concept="VPM3Z" id="3TMopQL6JtN" role="3F10Kt" />
+        <node concept="3F0ifn" id="3TMopQL6JtP" role="3EZMnx">
+          <property role="3F0ifm" value="Register automaton:" />
+        </node>
+        <node concept="3F0A7n" id="3TMopQL6Jux" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="l2Vlx" id="3TMopQL6JtQ" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="3TMopQL6YmA" role="3EZMnx">
+        <node concept="VPM3Z" id="3TMopQL6YmC" role="3F10Kt" />
+        <node concept="3F0ifn" id="3TMopQL6YmE" role="3EZMnx">
+          <property role="3F0ifm" value="Description:" />
+        </node>
+        <node concept="3F0A7n" id="3TMopQL6Ynr" role="3EZMnx">
+          <ref role="1NtTu8" to="4cus:3TMopQL6XZz" resolve="description" />
+        </node>
+        <node concept="l2Vlx" id="3TMopQL6YmF" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="3TMopQL7C0N" role="3EZMnx" />
       <node concept="3EZMnI" id="7HRsFfsAB4B" role="3EZMnx">
         <node concept="VPM3Z" id="7HRsFfsAB4D" role="3F10Kt" />
         <node concept="l2Vlx" id="7HRsFfsAB4G" role="2iSdaV" />
