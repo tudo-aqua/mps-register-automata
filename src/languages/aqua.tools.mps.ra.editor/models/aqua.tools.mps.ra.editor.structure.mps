@@ -307,5 +307,22 @@
     <property role="TrG5h" value="TypeDeclaration" />
     <ref role="1TJDcQ" node="3TMopQL3aqQ" resolve="Type" />
   </node>
+  <node concept="1TIwiD" id="1_71nT_Tyc2">
+    <property role="EcuMT" value="1821430614728254210" />
+    <property role="TrG5h" value="TypeList" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Type list" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1_71nT_Tycf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1_71nT_Tyct" role="1TKVEi">
+      <property role="IQ2ns" value="1821430614728254237" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3TMopQL3arK" resolve="TypeDeclaration" />
+    </node>
+  </node>
 </model>
 
