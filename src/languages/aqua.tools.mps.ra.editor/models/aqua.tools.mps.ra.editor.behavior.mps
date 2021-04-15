@@ -30,6 +30,10 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -54,6 +58,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -344,6 +349,26 @@
         </node>
         <node concept="x79VA" id="49V_FwqSDRo" role="3nqlJM">
           <property role="x79VB" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1_71nT_VjGq">
+    <ref role="13h7C2" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
+    <node concept="13hLZK" id="1_71nT_VjGr" role="13h7CW">
+      <node concept="3clFbS" id="1_71nT_VjGs" role="2VODD2">
+        <node concept="3clFbF" id="1_71nT_VjGS" role="3cqZAp">
+          <node concept="37vLTI" id="1_71nT_VkkR" role="3clFbG">
+            <node concept="3clFbT" id="1_71nT_Vklh" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="1_71nT_VjPw" role="37vLTJ">
+              <node concept="13iPFW" id="1_71nT_VjGR" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1_71nT_Vk03" role="2OqNvi">
+                <ref role="3TsBF5" to="4cus:1OjSjUCzLNe" resolve="showTypes" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
