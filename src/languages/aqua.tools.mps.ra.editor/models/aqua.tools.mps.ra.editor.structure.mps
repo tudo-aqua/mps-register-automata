@@ -99,6 +99,9 @@
     <node concept="PrWs8" id="4cCb6PI$LU7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8vJX" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
     <node concept="1TJgyi" id="72MYekvd55i" role="1TKVEl">
       <property role="IQ2nx" value="8120826741057147218" />
       <property role="TrG5h" value="isAccepting" />
@@ -133,6 +136,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4cCb6PI_raO" resolve="Transition" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8vKd" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI_raP">
     <property role="EcuMT" value="4839166648127959733" />
@@ -145,6 +151,9 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="1_71nTA8xCA" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqQoXg">
@@ -167,6 +176,9 @@
     <node concept="PrWs8" id="1P2gUi$3hSL" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8xCR" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqQoXj">
     <property role="EcuMT" value="4790588346107268947" />
@@ -180,6 +192,9 @@
     <node concept="PrWs8" id="3TMopQL4Wu$" role="PzmwI">
       <ref role="PrY4T" node="3TMopQL2TJA" resolve="ITypedConcept" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8vJt" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqQoXm">
     <property role="EcuMT" value="4790588346107268950" />
@@ -191,6 +206,9 @@
       <property role="20kJfa" value="register" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="49V_FwqQoXj" resolve="Register" />
+    </node>
+    <node concept="PrWs8" id="1_71nTA8xDj" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI_raO">
@@ -221,6 +239,9 @@
     <node concept="PrWs8" id="1P2gUi$2szM" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8xDK" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4cCb6PI_raM">
     <property role="EcuMT" value="4839166648127959730" />
@@ -238,6 +259,9 @@
     <node concept="PrWs8" id="12PSNpl3gDF" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8xEf" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqQzwN">
     <property role="EcuMT" value="4790588346107312179" />
@@ -251,6 +275,9 @@
     <node concept="PrWs8" id="3TMopQL2UiL" role="PzmwI">
       <ref role="PrY4T" node="3TMopQL2TJA" resolve="ITypedConcept" />
     </node>
+    <node concept="PrWs8" id="1_71nTA8xEJ" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="72MYeku52$q">
     <property role="EcuMT" value="8120826741038262554" />
@@ -258,6 +285,9 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="Transition" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="1_71nTA8xF0" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="49V_FwqSaAs">
     <property role="EcuMT" value="4790588346107734428" />
@@ -269,6 +299,9 @@
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="49V_FwqQzwN" resolve="Variable" />
+    </node>
+    <node concept="PrWs8" id="1_71nTA8xFq" role="PzmwI">
+      <ref role="PrY4T" node="1_71nTA8qFa" resolve="IRegisterAutomatonElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="3TMopQL2TJA">
@@ -328,6 +361,10 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3TMopQL3arK" resolve="TypeDeclaration" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="1_71nTA8qFa">
+    <property role="EcuMT" value="1821430614732155594" />
+    <property role="TrG5h" value="IRegisterAutomatonElement" />
   </node>
 </model>
 
