@@ -205,7 +205,7 @@
   </registry>
   <node concept="18kY7G" id="72MYekvm3Bx">
     <property role="TrG5h" value="UniqueRegisterNames" />
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <node concept="3clFbS" id="72MYekvm3By" role="18ibNy">
       <node concept="3SKdUt" id="12PSNpl1ORV" role="3cqZAp">
         <node concept="1PaTwC" id="12PSNpl1ORW" role="1aUNEU">
@@ -391,7 +391,7 @@
   </node>
   <node concept="18kY7G" id="12PSNpl0JFX">
     <property role="TrG5h" value="UnusedRegisters" />
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <node concept="3clFbS" id="12PSNpl0JFY" role="18ibNy">
       <node concept="3SKdUt" id="12PSNpl1Npo" role="3cqZAp">
         <node concept="1PaTwC" id="12PSNpl1Npp" role="1aUNEU">
@@ -1247,7 +1247,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="1_71nT_SI_t">
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <property role="TrG5h" value="UniqueStateNames" />
     <node concept="3clFbS" id="1_71nT_SI_u" role="18ibNy">
       <node concept="3SKdUt" id="1_71nT_SJtA" role="3cqZAp">

@@ -384,7 +384,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="4cCb6PI$MhT">
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="3EZMnI" id="7HRsFfsAseU" role="2wV5jI">
       <node concept="3EZMnI" id="3TMopQL6JtL" role="3EZMnx">
@@ -496,12 +496,9 @@
         </node>
       </node>
     </node>
-    <node concept="2aJ2om" id="7HRsFfsAij0" role="CpUAK">
-      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
-    </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_5O6">
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU6" resolve="State" />
     <node concept="2ZK4vF" id="4cCb6PI_5O8" role="2wV5jI">
       <node concept="3EZMnI" id="4cCb6PI_5Ok" role="1ytjkN">
@@ -525,9 +522,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2aJ2om" id="7HRsFfsAiko" role="CpUAK">
-      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
     <node concept="3EZMnI" id="72MYekvddnB" role="6VMZX">
       <node concept="2iRkQZ" id="72MYekvddnC" role="2iSdaV" />
@@ -554,7 +548,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_elj">
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU9" resolve="TransitionEdge" />
     <node concept="2ZMJ7s" id="4cCb6PI_ell" role="2wV5jI">
       <node concept="1PNbMa" id="4cCb6PI_eln" role="1PN8q7">
@@ -595,21 +589,9 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
-    <node concept="2aJ2om" id="7HRsFfsAiog" role="CpUAK">
-      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
-    </node>
-  </node>
-  <node concept="2ABfQD" id="7HRsFfsAbRe">
-    <property role="TrG5h" value="graph-editor" />
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
-    <node concept="2BsEeg" id="7HRsFfsAbRf" role="2ABdcP">
-      <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="Gaphical" />
-      <property role="2BUmq6" value="Use graphical editor for register automata" />
-    </node>
   </node>
   <node concept="24kQdi" id="7HRsFfsA_es">
-    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="7HRsFfsAAGL" role="2wV5jI">
       <node concept="3F0A7n" id="7HRsFfsAAGS" role="3EZMnx">
@@ -646,9 +628,6 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7HRsFfsAAGO" role="2iSdaV" />
-    </node>
-    <node concept="2aJ2om" id="7HRsFfsAAGJ" role="CpUAK">
-      <ref role="2$4xQ3" node="7HRsFfsAbRf" resolve="Gaphical" />
     </node>
   </node>
   <node concept="2xDbr0" id="72MYekvccQO">
@@ -2341,7 +2320,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="49V_FwqQZHx">
-    <property role="3GE5qa" value="RegisterAutomaton_default" />
+    <property role="3GE5qa" value="RegisterAutomaton_textual" />
     <ref role="1XX52x" to="4cus:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="49V_FwqQZHz" role="2wV5jI">
       <node concept="3F0A7n" id="49V_FwqQZHK" role="3EZMnx">
@@ -2401,6 +2380,9 @@
         </node>
         <node concept="l2Vlx" id="1_71nT_YQne" role="2iSdaV" />
       </node>
+    </node>
+    <node concept="2aJ2om" id="1_71nTAf_xx" role="CpUAK">
+      <ref role="2$4xQ3" node="1_71nTAf_9D" resolve="textual" />
     </node>
   </node>
   <node concept="24kQdi" id="49V_FwqRr7D">
@@ -2592,7 +2574,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1_71nT_Wrng">
-    <property role="3GE5qa" value="RegisterAutomaton_default" />
+    <property role="3GE5qa" value="RegisterAutomaton_textual" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="3EZMnI" id="1_71nT_Wrn$" role="2wV5jI">
       <node concept="3EZMnI" id="1_71nT_WrnF" role="3EZMnx">
@@ -2698,9 +2680,12 @@
       </node>
       <node concept="2iRkQZ" id="1_71nT_Z8m2" role="2iSdaV" />
     </node>
+    <node concept="2aJ2om" id="1_71nTAf_FL" role="CpUAK">
+      <ref role="2$4xQ3" node="1_71nTAf_9D" resolve="textual" />
+    </node>
   </node>
   <node concept="24kQdi" id="1_71nT_WZp_">
-    <property role="3GE5qa" value="RegisterAutomaton_default" />
+    <property role="3GE5qa" value="RegisterAutomaton_textual" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU9" resolve="TransitionEdge" />
     <node concept="3EZMnI" id="1_71nT_WZpT" role="2wV5jI">
       <node concept="1iCGBv" id="1_71nT_WZq0" role="3EZMnx">
@@ -2732,9 +2717,12 @@
       </node>
       <node concept="l2Vlx" id="1_71nT_WZpW" role="2iSdaV" />
     </node>
+    <node concept="2aJ2om" id="1_71nTAf_Gb" role="CpUAK">
+      <ref role="2$4xQ3" node="1_71nTAf_9D" resolve="textual" />
+    </node>
   </node>
   <node concept="24kQdi" id="1_71nT_Xfp6">
-    <property role="3GE5qa" value="RegisterAutomaton_default" />
+    <property role="3GE5qa" value="RegisterAutomaton_textual" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU6" resolve="State" />
     <node concept="3EZMnI" id="1_71nT_Xfpq" role="2wV5jI">
       <node concept="3F0ifn" id="1_71nTA6W5I" role="3EZMnx">
@@ -2808,6 +2796,9 @@
         </node>
         <node concept="l2Vlx" id="1_71nT_Xg7a" role="2iSdaV" />
       </node>
+    </node>
+    <node concept="2aJ2om" id="1_71nTAf_Ej" role="CpUAK">
+      <ref role="2$4xQ3" node="1_71nTAf_9D" resolve="textual" />
     </node>
   </node>
   <node concept="3ICUPy" id="1_71nTA2uml">
@@ -3047,6 +3038,15 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="2ABfQD" id="1_71nTAf_9s">
+    <property role="3GE5qa" value="RegisterAutomaton_textual" />
+    <property role="TrG5h" value="Textual Editor" />
+    <node concept="2BsEeg" id="1_71nTAf_9D" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="textual" />
+      <property role="2BUmq6" value="Use textual representation of the Automaton" />
     </node>
   </node>
 </model>
