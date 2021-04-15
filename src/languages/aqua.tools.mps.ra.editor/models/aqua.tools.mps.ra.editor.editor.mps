@@ -347,6 +347,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="4cCb6PI$MhT">
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="3EZMnI" id="7HRsFfsAseU" role="2wV5jI">
       <node concept="3EZMnI" id="3TMopQL6JtL" role="3EZMnx">
@@ -463,6 +464,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_5O6">
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU6" resolve="State" />
     <node concept="2ZK4vF" id="4cCb6PI_5O8" role="2wV5jI">
       <node concept="3EZMnI" id="4cCb6PI_5Ok" role="1ytjkN">
@@ -515,6 +517,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4cCb6PI_elj">
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:4cCb6PI$LU9" resolve="TransitionEdge" />
     <node concept="2ZMJ7s" id="4cCb6PI_ell" role="2wV5jI">
       <node concept="1PNbMa" id="4cCb6PI_eln" role="1PN8q7">
@@ -561,6 +564,7 @@
   </node>
   <node concept="2ABfQD" id="7HRsFfsAbRe">
     <property role="TrG5h" value="graph-editor" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <node concept="2BsEeg" id="7HRsFfsAbRf" role="2ABdcP">
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="Gaphical" />
@@ -568,7 +572,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7HRsFfsA_es">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="7HRsFfsAAGL" role="2wV5jI">
       <node concept="3F0A7n" id="7HRsFfsAAGS" role="3EZMnx">
@@ -1867,6 +1871,7 @@
   </node>
   <node concept="312cEu" id="49V_FwqSXst">
     <property role="TrG5h" value="HorizontalLineCellProvider" />
+    <property role="3GE5qa" value="CustomShapes" />
     <node concept="312cEg" id="49V_FwqTpOT" role="jymVt">
       <property role="TrG5h" value="myNode" />
       <node concept="3Tm6S6" id="49V_FwqTpzt" role="1B3o_S" />
@@ -2275,6 +2280,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="49V_FwqQZHx">
+    <property role="3GE5qa" value="RegisterAutomaton" />
     <ref role="1XX52x" to="4cus:49V_FwqQoXj" resolve="Register" />
     <node concept="3EZMnI" id="49V_FwqQZHz" role="2wV5jI">
       <node concept="3F0ifn" id="3TMopQL60u8" role="3EZMnx">
@@ -2489,6 +2495,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1_71nT_U$Xv">
+    <property role="3GE5qa" value="TypeList" />
     <ref role="1XX52x" to="4cus:1_71nT_Tyc2" resolve="TypeList" />
     <node concept="3EZMnI" id="1_71nT_U$Y5" role="2wV5jI">
       <node concept="3EZMnI" id="1_71nT_U$Yc" role="3EZMnx">
