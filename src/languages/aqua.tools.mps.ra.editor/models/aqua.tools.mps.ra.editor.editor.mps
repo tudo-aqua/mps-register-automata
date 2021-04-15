@@ -351,17 +351,7 @@
       <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
-        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
-      </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -2456,14 +2446,10 @@
                 <node concept="3Tqbb2" id="1OjSjUC$dDg" role="1tU5fm">
                   <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
                 </node>
-                <node concept="2OqwBi" id="1OjSjUC$dXU" role="33vP2m">
-                  <node concept="pncrf" id="1OjSjUC$dIG" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="1OjSjUC$eh7" role="2OqNvi">
-                    <node concept="1xMEDy" id="1OjSjUC$eh9" role="1xVPHs">
-                      <node concept="chp4Y" id="1OjSjUC$ejM" role="ri$Ld">
-                        <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                      </node>
-                    </node>
+                <node concept="2OqwBi" id="1_71nTAa3m0" role="33vP2m">
+                  <node concept="pncrf" id="1_71nTAa35_" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1_71nTAa3BG" role="2OqNvi">
+                    <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                   </node>
                 </node>
               </node>
@@ -2491,14 +2477,10 @@
                 <node concept="3Tqbb2" id="1OjSjUC$f4M" role="1tU5fm">
                   <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
                 </node>
-                <node concept="2OqwBi" id="1OjSjUC$f4N" role="33vP2m">
-                  <node concept="pncrf" id="1OjSjUC$f4O" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="1OjSjUC$f4P" role="2OqNvi">
-                    <node concept="1xMEDy" id="1OjSjUC$f4Q" role="1xVPHs">
-                      <node concept="chp4Y" id="1OjSjUC$f4R" role="ri$Ld">
-                        <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                      </node>
-                    </node>
+                <node concept="2OqwBi" id="1_71nTAaqw7" role="33vP2m">
+                  <node concept="pncrf" id="1_71nTAaqfG" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1_71nTAaqLN" role="2OqNvi">
+                    <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                   </node>
                 </node>
               </node>
@@ -2912,12 +2894,8 @@
                 </node>
                 <node concept="2OqwBi" id="1_71nTA2uOZ" role="33vP2m">
                   <node concept="7Obwk" id="1_71nTA2uAL" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="1_71nTA2v5Y" role="2OqNvi">
-                    <node concept="1xMEDy" id="1_71nTA2v60" role="1xVPHs">
-                      <node concept="chp4Y" id="1_71nTA2vbj" role="ri$Ld">
-                        <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                      </node>
-                    </node>
+                  <node concept="2qgKlT" id="1_71nTA9GPi" role="2OqNvi">
+                    <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                   </node>
                 </node>
               </node>

@@ -83,17 +83,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
-        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
-      </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -225,12 +215,8 @@
             </node>
             <node concept="2OqwBi" id="1_71nTA1VI8" role="33vP2m">
               <node concept="2Sf5sV" id="1_71nTA1VvU" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1_71nTA1VTE" role="2OqNvi">
-                <node concept="1xMEDy" id="1_71nTA1VTG" role="1xVPHs">
-                  <node concept="chp4Y" id="1_71nTA1VWf" role="ri$Ld">
-                    <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                  </node>
-                </node>
+              <node concept="2qgKlT" id="1_71nTA9B_S" role="2OqNvi">
+                <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
               </node>
             </node>
           </node>

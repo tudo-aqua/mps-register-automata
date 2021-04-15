@@ -19,6 +19,7 @@
     <import index="4cus" ref="r:21da5544-2cb1-4bc6-8abc-4ed5bfb77d43(aqua.tools.mps.ra.editor.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="gex0" ref="r:c9dbc8a8-f7f3-4a7b-bbad-000a18399b5d(aqua.tools.mps.ra.editor.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -129,6 +130,7 @@
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
       </concept>
+      <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
@@ -153,6 +155,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -567,14 +570,10 @@
               <node concept="3Tqbb2" id="2CSZ568zbmR" role="1tU5fm">
                 <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
               </node>
-              <node concept="2OqwBi" id="2CSZ568zb_C" role="33vP2m">
-                <node concept="2rP1CM" id="2CSZ568zbqR" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="2CSZ568zbGR" role="2OqNvi">
-                  <node concept="1xMEDy" id="2CSZ568zbGT" role="1xVPHs">
-                    <node concept="chp4Y" id="2CSZ568zbJ8" role="ri$Ld">
-                      <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="1_71nTA9fQB" role="33vP2m">
+                <node concept="3kakTB" id="1_71nTA9fxv" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1_71nTA9gmY" role="2OqNvi">
+                  <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                 </node>
               </node>
             </node>
@@ -1286,14 +1285,10 @@
               <node concept="3Tqbb2" id="1_71nT_VZU5" role="1tU5fm">
                 <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
               </node>
-              <node concept="2OqwBi" id="1_71nT_VZU6" role="33vP2m">
-                <node concept="2rP1CM" id="1_71nT_VZU7" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="1_71nT_VZU8" role="2OqNvi">
-                  <node concept="1xMEDy" id="1_71nT_VZU9" role="1xVPHs">
-                    <node concept="chp4Y" id="1_71nT_VZUa" role="ri$Ld">
-                      <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="1_71nTA9hXt" role="33vP2m">
+                <node concept="3kakTB" id="1_71nTA9hGy" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1_71nTA9ibA" role="2OqNvi">
+                  <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                 </node>
               </node>
             </node>
@@ -1424,14 +1419,10 @@
               <node concept="3Tqbb2" id="1_71nT_W1yG" role="1tU5fm">
                 <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
               </node>
-              <node concept="2OqwBi" id="1_71nT_W1yH" role="33vP2m">
-                <node concept="2rP1CM" id="1_71nT_W1yI" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="1_71nT_W1yJ" role="2OqNvi">
-                  <node concept="1xMEDy" id="1_71nT_W1yK" role="1xVPHs">
-                    <node concept="chp4Y" id="1_71nT_W1yL" role="ri$Ld">
-                      <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="1_71nTA9jhP" role="33vP2m">
+                <node concept="3kakTB" id="1_71nTA9iWr" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1_71nTA9j_i" role="2OqNvi">
+                  <ref role="37wK5l" to="gex0:1_71nTA8qG6" resolve="getParentRegisterAutomaton" />
                 </node>
               </node>
             </node>
