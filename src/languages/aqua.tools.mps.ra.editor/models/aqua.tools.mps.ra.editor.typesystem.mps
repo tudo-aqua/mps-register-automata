@@ -610,7 +610,7 @@
               <property role="3oM_SC" value="removes" />
             </node>
             <node concept="3oM_SD" id="12PSNpl1_5r" role="1PaTwD">
-              <property role="3oM_SC" value="an" />
+              <property role="3oM_SC" value="a" />
             </node>
             <node concept="3oM_SD" id="12PSNpl1SAR" role="1PaTwD">
               <property role="3oM_SC" value="register" />
@@ -1250,6 +1250,333 @@
     <node concept="1YaCAy" id="3TMopQL4NP4" role="1YuTPh">
       <property role="TrG5h" value="typeDeclaration" />
       <ref role="1YaFvo" to="4cus:3TMopQL3arK" resolve="TypeDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1_71nT_SI_t">
+    <property role="3GE5qa" value="Checks" />
+    <property role="TrG5h" value="UniqueStateNames" />
+    <node concept="3clFbS" id="1_71nT_SI_u" role="18ibNy">
+      <node concept="3SKdUt" id="1_71nT_SJtA" role="3cqZAp">
+        <node concept="1PaTwC" id="1_71nT_SJtB" role="1aUNEU">
+          <node concept="3oM_SD" id="1_71nT_SJtC" role="1PaTwD">
+            <property role="3oM_SC" value="Setup" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtD" role="1PaTwD">
+            <property role="3oM_SC" value="new" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtE" role="1PaTwD">
+            <property role="3oM_SC" value="hashset" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtF" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtG" role="1PaTwD">
+            <property role="3oM_SC" value="stores" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtH" role="1PaTwD">
+            <property role="3oM_SC" value="already" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtI" role="1PaTwD">
+            <property role="3oM_SC" value="existing" />
+          </node>
+          <node concept="3oM_SD" id="1_71nT_SJtJ" role="1PaTwD">
+            <property role="3oM_SC" value="states" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="1_71nT_SJtK" role="3cqZAp">
+        <node concept="3cpWsn" id="1_71nT_SJtL" role="3cpWs9">
+          <property role="TrG5h" value="stateNames" />
+          <node concept="2hMVRd" id="1_71nT_SJtM" role="1tU5fm">
+            <node concept="17QB3L" id="1_71nT_SJtN" role="2hN53Y" />
+          </node>
+          <node concept="2ShNRf" id="1_71nT_SJtO" role="33vP2m">
+            <node concept="2i4dXS" id="1_71nT_SJtP" role="2ShVmc">
+              <node concept="17QB3L" id="1_71nT_SJtQ" role="HW$YZ" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1_71nT_SJtR" role="3cqZAp">
+        <node concept="2OqwBi" id="1_71nT_SJtS" role="3clFbG">
+          <node concept="2OqwBi" id="1_71nT_SJtT" role="2Oq$k0">
+            <node concept="1YBJjd" id="1_71nT_SJtU" role="2Oq$k0">
+              <ref role="1YBMHb" node="1_71nT_SI_A" resolve="registerAutomaton" />
+            </node>
+            <node concept="3Tsc0h" id="1_71nT_SKH3" role="2OqNvi">
+              <ref role="3TtcxE" to="4cus:4cCb6PI$LUf" resolve="states" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="1_71nT_SJtW" role="2OqNvi">
+            <node concept="1bVj0M" id="1_71nT_SJtX" role="23t8la">
+              <node concept="3clFbS" id="1_71nT_SJtY" role="1bW5cS">
+                <node concept="3SKdUt" id="1_71nT_SJtZ" role="3cqZAp">
+                  <node concept="1PaTwC" id="1_71nT_SJu0" role="1aUNEU">
+                    <node concept="3oM_SD" id="1_71nT_SJu1" role="1PaTwD">
+                      <property role="3oM_SC" value="The" />
+                    </node>
+                    <node concept="3oM_SD" id="1_71nT_SJu2" role="1PaTwD">
+                      <property role="3oM_SC" value="current" />
+                    </node>
+                    <node concept="3oM_SD" id="1_71nT_SJu3" role="1PaTwD">
+                      <property role="3oM_SC" value="state" />
+                    </node>
+                    <node concept="3oM_SD" id="1_71nT_SJu4" role="1PaTwD">
+                      <property role="3oM_SC" value="does" />
+                    </node>
+                    <node concept="3oM_SD" id="1_71nT_SJu5" role="1PaTwD">
+                      <property role="3oM_SC" value="already" />
+                    </node>
+                    <node concept="3oM_SD" id="1_71nT_SJu6" role="1PaTwD">
+                      <property role="3oM_SC" value="exists" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="1_71nT_SJu7" role="3cqZAp">
+                  <node concept="3clFbS" id="1_71nT_SJu8" role="3clFbx">
+                    <node concept="2MkqsV" id="1_71nT_SJu9" role="3cqZAp">
+                      <node concept="3cpWs3" id="1_71nT_SJua" role="2MkJ7o">
+                        <node concept="2OqwBi" id="1_71nT_SJub" role="3uHU7w">
+                          <node concept="37vLTw" id="1_71nT_SJuc" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1_71nT_SJuF" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="1_71nT_SJud" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1_71nT_SJue" role="3uHU7B">
+                          <property role="Xl_RC" value="Duplicate state: " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1_71nT_SJuf" role="1urrMF">
+                        <ref role="3cqZAo" node="1_71nT_SJuF" resolve="it" />
+                      </node>
+                      <node concept="3Cnw8n" id="1_71nT_Tccr" role="1urrFz">
+                        <ref role="QpYPw" node="1_71nT_STgq" resolve="RemoveState" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="1_71nT_SJuh" role="3clFbw">
+                    <node concept="37vLTw" id="1_71nT_SJui" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_71nT_SJtL" resolve="stateNames" />
+                    </node>
+                    <node concept="3JPx81" id="1_71nT_SJuj" role="2OqNvi">
+                      <node concept="1eOMI4" id="1_71nT_SJuk" role="25WWJ7">
+                        <node concept="2OqwBi" id="1_71nT_SJul" role="1eOMHV">
+                          <node concept="37vLTw" id="1_71nT_SJum" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1_71nT_SJuF" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="1_71nT_SJun" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="1_71nT_SJuo" role="9aQIa">
+                    <node concept="3clFbS" id="1_71nT_SJup" role="9aQI4">
+                      <node concept="3SKdUt" id="1_71nT_SJuq" role="3cqZAp">
+                        <node concept="1PaTwC" id="1_71nT_SJur" role="1aUNEU">
+                          <node concept="3oM_SD" id="1_71nT_SJus" role="1PaTwD">
+                            <property role="3oM_SC" value="Add" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJut" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJuu" role="1PaTwD">
+                            <property role="3oM_SC" value="current" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJuv" role="1PaTwD">
+                            <property role="3oM_SC" value="state" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJuw" role="1PaTwD">
+                            <property role="3oM_SC" value="to" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJux" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJuy" role="1PaTwD">
+                            <property role="3oM_SC" value="existing" />
+                          </node>
+                          <node concept="3oM_SD" id="1_71nT_SJuz" role="1PaTwD">
+                            <property role="3oM_SC" value="states" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="1_71nT_SJu$" role="3cqZAp">
+                        <node concept="2OqwBi" id="1_71nT_SJu_" role="3clFbG">
+                          <node concept="37vLTw" id="1_71nT_SJuA" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1_71nT_SJtL" resolve="stateNames" />
+                          </node>
+                          <node concept="TSZUe" id="1_71nT_SJuB" role="2OqNvi">
+                            <node concept="2OqwBi" id="1_71nT_SJuC" role="25WWJ7">
+                              <node concept="37vLTw" id="1_71nT_SJuD" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1_71nT_SJuF" resolve="it" />
+                              </node>
+                              <node concept="3TrcHB" id="1_71nT_SJuE" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="1_71nT_SJuF" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="1_71nT_SJuG" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1_71nT_SI_A" role="1YuTPh">
+      <property role="TrG5h" value="registerAutomaton" />
+      <ref role="1YaFvo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="1_71nT_STgq">
+    <property role="3GE5qa" value="Checks" />
+    <property role="TrG5h" value="RemoveState" />
+    <node concept="Q5ZZ6" id="1_71nT_STgr" role="Q6x$H">
+      <node concept="3clFbS" id="1_71nT_STgs" role="2VODD2">
+        <node concept="3SKdUt" id="1_71nT_STyr" role="3cqZAp">
+          <node concept="1PaTwC" id="1_71nT_STys" role="1aUNEU">
+            <node concept="3oM_SD" id="1_71nT_STyt" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyu" role="1PaTwD">
+              <property role="3oM_SC" value="QuickFix" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyv" role="1PaTwD">
+              <property role="3oM_SC" value="removes" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_SVtG" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_SVu1" role="1PaTwD">
+              <property role="3oM_SC" value="state" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyy" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyz" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STy$" role="1PaTwD">
+              <property role="3oM_SC" value="RegisterAutomaton" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1_71nT_STy_" role="3cqZAp">
+          <node concept="3cpWsn" id="1_71nT_STyA" role="3cpWs9">
+            <property role="TrG5h" value="state" />
+            <node concept="3Tqbb2" id="1_71nT_STyB" role="1tU5fm">
+              <ref role="ehGHo" to="4cus:4cCb6PI$LU6" resolve="State" />
+            </node>
+            <node concept="1PxgMI" id="1_71nT_STyC" role="33vP2m">
+              <node concept="chp4Y" id="1_71nT_SVNV" role="3oSUPX">
+                <ref role="cht4Q" to="4cus:4cCb6PI$LU6" resolve="State" />
+              </node>
+              <node concept="Q6c8r" id="1_71nT_STyE" role="1m5AlR" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1_71nT_STyF" role="3cqZAp">
+          <node concept="1PaTwC" id="1_71nT_STyG" role="1aUNEU">
+            <node concept="3oM_SD" id="1_71nT_STyH" role="1PaTwD">
+              <property role="3oM_SC" value="Get" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyI" role="1PaTwD">
+              <property role="3oM_SC" value="parent" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyJ" role="1PaTwD">
+              <property role="3oM_SC" value="RegisterAutomaton" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyK" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyL" role="1PaTwD">
+              <property role="3oM_SC" value="which" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyN" role="1PaTwD">
+              <property role="3oM_SC" value="state" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyO" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyP" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STyQ" role="1PaTwD">
+              <property role="3oM_SC" value="removed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1_71nT_STyR" role="3cqZAp">
+          <node concept="3cpWsn" id="1_71nT_STyS" role="3cpWs9">
+            <property role="TrG5h" value="registerAutomaton" />
+            <node concept="3Tqbb2" id="1_71nT_STyT" role="1tU5fm">
+              <ref role="ehGHo" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
+            </node>
+            <node concept="2OqwBi" id="1_71nT_STyU" role="33vP2m">
+              <node concept="37vLTw" id="1_71nT_STyV" role="2Oq$k0">
+                <ref role="3cqZAo" node="1_71nT_STyA" resolve="state" />
+              </node>
+              <node concept="2Xjw5R" id="1_71nT_STyW" role="2OqNvi">
+                <node concept="1xMEDy" id="1_71nT_STyX" role="1xVPHs">
+                  <node concept="chp4Y" id="1_71nT_STyY" role="ri$Ld">
+                    <ref role="cht4Q" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1_71nT_STyZ" role="3cqZAp">
+          <node concept="1PaTwC" id="1_71nT_STz0" role="1aUNEU">
+            <node concept="3oM_SD" id="1_71nT_STz1" role="1PaTwD">
+              <property role="3oM_SC" value="Remove" />
+            </node>
+            <node concept="3oM_SD" id="1_71nT_STz2" role="1PaTwD">
+              <property role="3oM_SC" value="state" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1_71nT_STz3" role="3cqZAp">
+          <node concept="2OqwBi" id="1_71nT_STz4" role="3clFbG">
+            <node concept="2OqwBi" id="1_71nT_STz5" role="2Oq$k0">
+              <node concept="37vLTw" id="1_71nT_STz6" role="2Oq$k0">
+                <ref role="3cqZAo" node="1_71nT_STyS" resolve="registerAutomaton" />
+              </node>
+              <node concept="3Tsc0h" id="1_71nT_SWj3" role="2OqNvi">
+                <ref role="3TtcxE" to="4cus:4cCb6PI$LUf" resolve="states" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1_71nT_STz8" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.remove(java.lang.Object)" resolve="remove" />
+              <node concept="37vLTw" id="1_71nT_STz9" role="37wK5m">
+                <ref role="3cqZAo" node="1_71nT_STyA" resolve="state" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="1_71nT_SV9H" role="QzAvj">
+      <node concept="3clFbS" id="1_71nT_SV9I" role="2VODD2">
+        <node concept="3clFbF" id="1_71nT_SVt2" role="3cqZAp">
+          <node concept="Xl_RD" id="1_71nT_SVt1" role="3clFbG">
+            <property role="Xl_RC" value="Remove State" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
