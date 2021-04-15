@@ -354,7 +354,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1_71nT_VjGq">
-    <property role="3GE5qa" value="RegisterAutomaton" />
+    <property role="3GE5qa" value="" />
     <ref role="13h7C2" to="4cus:4cCb6PI$LU5" resolve="RegisterAutomaton" />
     <node concept="13hLZK" id="1_71nT_VjGr" role="13h7CW">
       <node concept="3clFbS" id="1_71nT_VjGs" role="2VODD2">

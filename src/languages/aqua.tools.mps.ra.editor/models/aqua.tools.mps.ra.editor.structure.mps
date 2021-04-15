@@ -53,7 +53,7 @@
     <property role="TrG5h" value="RegisterAutomaton" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="register-automaton" />
-    <property role="3GE5qa" value="RegisterAutomaton" />
+    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cCb6PI$LUf" role="1TKVEi">
       <property role="IQ2ns" value="4839166648127790735" />
@@ -94,7 +94,7 @@
     <property role="EcuMT" value="4839166648127790726" />
     <property role="TrG5h" value="State" />
     <property role="34LRSv" value="state" />
-    <property role="3GE5qa" value="RegisterAutomaton" />
+    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4cCb6PI$LU7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -114,7 +114,7 @@
     <property role="EcuMT" value="4839166648127790729" />
     <property role="TrG5h" value="TransitionEdge" />
     <property role="34LRSv" value="transition-edge" />
-    <property role="3GE5qa" value="RegisterAutomaton" />
+    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cCb6PI$LUa" role="1TKVEi">
       <property role="IQ2ns" value="4839166648127790730" />
@@ -172,7 +172,7 @@
     <property role="EcuMT" value="4790588346107268947" />
     <property role="TrG5h" value="Register" />
     <property role="34LRSv" value="register" />
-    <property role="3GE5qa" value="RegisterAutomaton" />
+    <property role="3GE5qa" value="RegisterAutomaton_graphical" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="49V_FwqQzwQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
