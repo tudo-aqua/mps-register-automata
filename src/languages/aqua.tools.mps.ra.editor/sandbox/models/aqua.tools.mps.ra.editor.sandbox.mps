@@ -38,6 +38,7 @@
       </concept>
       <concept id="4839166648127790725" name="aqua.tools.mps.ra.editor.structure.RegisterAutomaton" flags="ng" index="HINbC">
         <property id="4499766307605700579" name="description" index="2fqrTY" />
+        <property id="2095265910889585870" name="showTypes" index="2PBfRK" />
         <child id="8896705705719414217" name="registers" index="2BVWXU" />
         <child id="4839166648127790735" name="states" index="HINby" />
         <child id="4839166648127790737" name="transitions" index="HINbW" />
@@ -68,6 +69,9 @@
       <concept id="4790588346107268947" name="aqua.tools.mps.ra.editor.structure.Register" flags="ng" index="1oCxBF" />
       <concept id="4790588346107268950" name="aqua.tools.mps.ra.editor.structure.RegisterReference" flags="ng" index="1oCxBI">
         <reference id="4790588346107268951" name="register" index="1oCxBJ" />
+      </concept>
+      <concept id="1821430614728254210" name="aqua.tools.mps.ra.editor.structure.TypeList" flags="ng" index="1WCipW">
+        <child id="1821430614728254237" name="types" index="1WCipz" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -114,16 +118,17 @@
   <node concept="HINbC" id="12PSNpl7yuc">
     <property role="TrG5h" value="XMPPRegistration" />
     <property role="2fqrTY" value="XMPP registrations and logins for a single user" />
+    <property role="2PBfRK" value="true" />
     <node concept="1oCxBF" id="12PSNpl7yvF" role="2BVWXU">
       <property role="TrG5h" value="x1" />
-      <node concept="2fvGtH" id="3TMopQL6fqq" role="2fvQQQ">
-        <property role="TrG5h" value="String" />
+      <node concept="2fvGto" id="1_71nT_UTLq" role="2fvQQQ">
+        <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
       </node>
     </node>
     <node concept="1oCxBF" id="12PSNpl7yvH" role="2BVWXU">
       <property role="TrG5h" value="x2" />
-      <node concept="2fvGto" id="3TMopQL6g0y" role="2fvQQQ">
-        <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+      <node concept="2fvGto" id="1_71nT_UTMi" role="2fvQQQ">
+        <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
       </node>
     </node>
     <node concept="HINbF" id="12PSNpl7yud" role="HINby">
@@ -186,8 +191,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="12PSNpl7ywN" role="3ul5Gz">
               <node concept="2VclrF" id="12PSNpl7ywO" role="3wpmZR">
-                <property role="2Vclpx" value="456.0" />
-                <property role="2Vclpz" value="200.5" />
+                <property role="2Vclpx" value="537.0" />
+                <property role="2Vclpz" value="197.5" />
               </node>
               <node concept="2VclrF" id="12PSNpl7ywP" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -311,14 +316,14 @@
           <property role="1oCxBD" value="register" />
           <node concept="1oCqUb" id="12PSNpl7yvp" role="1IDHf_">
             <property role="TrG5h" value="p1" />
-            <node concept="2fvGto" id="3TMopQL6fJf" role="2fvQQQ">
-              <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+            <node concept="2fvGto" id="1_71nT_UTNW" role="2fvQQQ">
+              <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
           <node concept="1oCqUb" id="12PSNpl7yvr" role="1IDHf_">
             <property role="TrG5h" value="p2" />
-            <node concept="2fvGto" id="3TMopQL6g1O" role="2fvQQQ">
-              <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+            <node concept="2fvGto" id="1_71nT_UTP6" role="2fvQQQ">
+              <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
         </node>
@@ -359,14 +364,14 @@
           <property role="1oCxBD" value="login" />
           <node concept="1oCqUb" id="12PSNpl7yxr" role="1IDHf_">
             <property role="TrG5h" value="p1" />
-            <node concept="2fvGto" id="3TMopQL6fN_" role="2fvQQQ">
-              <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+            <node concept="2fvGto" id="1_71nT_UTQk" role="2fvQQQ">
+              <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
           <node concept="1oCqUb" id="12PSNpl7yxt" role="1IDHf_">
             <property role="TrG5h" value="p2" />
-            <node concept="2fvGto" id="3TMopQL6g3a" role="2fvQQQ">
-              <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+            <node concept="2fvGto" id="1_71nT_UTRA" role="2fvQQQ">
+              <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
         </node>
@@ -428,8 +433,8 @@
           <property role="1oCxBD" value="pw" />
           <node concept="1oCqUb" id="12PSNpl7yS_" role="1IDHf_">
             <property role="TrG5h" value="p1" />
-            <node concept="2fvGto" id="3TMopQL6g4$" role="2fvQQQ">
-              <ref role="2fvQeW" node="3TMopQL6fqq" resolve="String" />
+            <node concept="2fvGto" id="1_71nT_UTTe" role="2fvQQQ">
+              <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
         </node>
@@ -449,6 +454,12 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1WCipW" id="1_71nT_TLvl">
+    <property role="TrG5h" value="Default Types" />
+    <node concept="2fvGtH" id="1_71nT_UbF7" role="1WCipz">
+      <property role="TrG5h" value="String" />
     </node>
   </node>
 </model>
