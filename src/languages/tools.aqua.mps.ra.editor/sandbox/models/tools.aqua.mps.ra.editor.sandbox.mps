@@ -2,7 +2,7 @@
 <model ref="r:08fcdbea-2e88-4f8c-9740-272acc1b4ccb(tools.aqua.mps.ra.editor.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="91173cc5-e702-48c1-b668-e2396ff98500" name="aqua.tools.mps.ra.editor" version="0" />
+    <use id="91173cc5-e702-48c1-b668-e2396ff98500" name="tools.aqua.mps.ra.editor" version="0" />
     <use id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout" version="0" />
   </languages>
   <imports />
@@ -23,54 +23,54 @@
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="91173cc5-e702-48c1-b668-e2396ff98500" name="aqua.tools.mps.ra.editor">
-      <concept id="4499766307604539797" name="aqua.tools.mps.ra.editor.structure.ITypedConcept" flags="ng" index="2fu4w8">
+    <language id="91173cc5-e702-48c1-b668-e2396ff98500" name="tools.aqua.mps.ra.editor">
+      <concept id="4499766307604539797" name="tools.aqua.mps.ra.editor.structure.ITypedConcept" flags="ng" index="2fu4w8">
         <child id="4499766307604728875" name="type" index="2fvQQQ" />
       </concept>
-      <concept id="4499766307604702917" name="aqua.tools.mps.ra.editor.structure.TypeReference" flags="ng" index="2fvGto">
+      <concept id="4499766307604702917" name="tools.aqua.mps.ra.editor.structure.TypeReference" flags="ng" index="2fvGto">
         <reference id="4499766307604726305" name="type" index="2fvQeW" />
       </concept>
-      <concept id="4499766307604702960" name="aqua.tools.mps.ra.editor.structure.TypeDeclaration" flags="ng" index="2fvGtH" />
-      <concept id="4839166648127790729" name="aqua.tools.mps.ra.editor.structure.TransitionEdge" flags="ng" index="HINb$">
+      <concept id="4499766307604702960" name="tools.aqua.mps.ra.editor.structure.TypeDeclaration" flags="ng" index="2fvGtH" />
+      <concept id="4839166648127790729" name="tools.aqua.mps.ra.editor.structure.TransitionEdge" flags="ng" index="HINb$">
         <reference id="4839166648127790732" name="to" index="HINbx" />
         <reference id="4839166648127790730" name="from" index="HINbB" />
         <child id="8120826741038097974" name="transition" index="1ICPVj" />
       </concept>
-      <concept id="4839166648127790725" name="aqua.tools.mps.ra.editor.structure.RegisterAutomaton" flags="ng" index="HINbC">
+      <concept id="4839166648127790725" name="tools.aqua.mps.ra.editor.structure.RegisterAutomaton" flags="ng" index="HINbC">
         <property id="4499766307605700579" name="description" index="2fqrTY" />
         <property id="2095265910889585870" name="showTypes" index="2PBfRK" />
         <child id="8896705705719414217" name="registers" index="2BVWXU" />
         <child id="4839166648127790735" name="states" index="HINby" />
         <child id="4839166648127790737" name="transitions" index="HINbW" />
       </concept>
-      <concept id="4839166648127790726" name="aqua.tools.mps.ra.editor.structure.State" flags="ng" index="HINbF">
+      <concept id="4839166648127790726" name="tools.aqua.mps.ra.editor.structure.State" flags="ng" index="HINbF">
         <property id="8120826741057147220" name="isInitial" index="1JxEAL" />
         <property id="8120826741057147218" name="isAccepting" index="1JxEAR" />
       </concept>
-      <concept id="4839166648127959733" name="aqua.tools.mps.ra.editor.structure.Guard" flags="ng" index="HJpVo">
+      <concept id="4839166648127959733" name="tools.aqua.mps.ra.editor.structure.Guard" flags="ng" index="HJpVo">
         <child id="4790588346107412697" name="expression" index="1oC5px" />
       </concept>
-      <concept id="4839166648127959732" name="aqua.tools.mps.ra.editor.structure.Transition" flags="ng" index="HJpVp">
+      <concept id="4839166648127959732" name="tools.aqua.mps.ra.editor.structure.Transition" flags="ng" index="HJpVp">
         <child id="4790588346107311057" name="guard" index="1oCqlD" />
         <child id="4790588346107311060" name="update" index="1oCqlG" />
         <child id="4790588346107309990" name="label" index="1oCr$u" />
       </concept>
-      <concept id="4839166648127959730" name="aqua.tools.mps.ra.editor.structure.Update" flags="ng" index="HJpVv">
+      <concept id="4839166648127959730" name="tools.aqua.mps.ra.editor.structure.Update" flags="ng" index="HJpVv">
         <child id="4790588346107514736" name="assignments" index="1oDHB8" />
       </concept>
-      <concept id="4790588346107734428" name="aqua.tools.mps.ra.editor.structure.VariableReference" flags="ng" index="1oANW$">
+      <concept id="4790588346107734428" name="tools.aqua.mps.ra.editor.structure.VariableReference" flags="ng" index="1oANW$">
         <reference id="4790588346107747052" name="variable" index="1oAOLk" />
       </concept>
-      <concept id="4790588346107312179" name="aqua.tools.mps.ra.editor.structure.Variable" flags="ng" index="1oCqUb" />
-      <concept id="4790588346107268944" name="aqua.tools.mps.ra.editor.structure.Label" flags="ng" index="1oCxBC">
+      <concept id="4790588346107312179" name="tools.aqua.mps.ra.editor.structure.Variable" flags="ng" index="1oCqUb" />
+      <concept id="4790588346107268944" name="tools.aqua.mps.ra.editor.structure.Label" flags="ng" index="1oCxBC">
         <property id="4790588346107268945" name="name" index="1oCxBD" />
         <child id="8120826741038263040" name="variables" index="1IDHf_" />
       </concept>
-      <concept id="4790588346107268947" name="aqua.tools.mps.ra.editor.structure.Register" flags="ng" index="1oCxBF" />
-      <concept id="4790588346107268950" name="aqua.tools.mps.ra.editor.structure.RegisterReference" flags="ng" index="1oCxBI">
+      <concept id="4790588346107268947" name="tools.aqua.mps.ra.editor.structure.Register" flags="ng" index="1oCxBF" />
+      <concept id="4790588346107268950" name="tools.aqua.mps.ra.editor.structure.RegisterReference" flags="ng" index="1oCxBI">
         <reference id="4790588346107268951" name="register" index="1oCxBJ" />
       </concept>
-      <concept id="1821430614728254210" name="aqua.tools.mps.ra.editor.structure.TypeList" flags="ng" index="1WCipW">
+      <concept id="1821430614728254210" name="tools.aqua.mps.ra.editor.structure.TypeList" flags="ng" index="1WCipW">
         <child id="1821430614728254237" name="types" index="1WCipz" />
       </concept>
     </language>
