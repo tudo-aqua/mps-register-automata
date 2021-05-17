@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:08fcdbea-2e88-4f8c-9740-272acc1b4ccb(aqua.tools.mps.ra.editor.sandbox)">
+<model ref="r:08fcdbea-2e88-4f8c-9740-272acc1b4ccb(tools.aqua.mps.ra.editor.sandbox)">
   <persistence version="9" />
   <languages>
     <use id="91173cc5-e702-48c1-b668-e2396ff98500" name="aqua.tools.mps.ra.editor" version="0" />
@@ -191,8 +191,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="12PSNpl7ywN" role="3ul5Gz">
               <node concept="2VclrF" id="12PSNpl7ywO" role="3wpmZR">
-                <property role="2Vclpx" value="537.0" />
-                <property role="2Vclpz" value="197.5" />
+                <property role="2Vclpx" value="465.0" />
+                <property role="2Vclpz" value="195.5" />
               </node>
               <node concept="2VclrF" id="12PSNpl7ywP" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
@@ -322,7 +322,7 @@
           </node>
           <node concept="1oCqUb" id="12PSNpl7yvr" role="1IDHf_">
             <property role="TrG5h" value="p2" />
-            <node concept="2fvGto" id="1_71nT_UTP6" role="2fvQQQ">
+            <node concept="2fvGto" id="7R4V8d6jLAm" role="2fvQQQ">
               <ref role="2fvQeW" node="1_71nT_UbF7" resolve="String" />
             </node>
           </node>
@@ -460,6 +460,9 @@
     <property role="TrG5h" value="Default Types" />
     <node concept="2fvGtH" id="1_71nT_UbF7" role="1WCipz">
       <property role="TrG5h" value="String" />
+    </node>
+    <node concept="2fvGtH" id="7R4V8d6jLzt" role="1WCipz">
+      <property role="TrG5h" value="Test" />
     </node>
   </node>
 </model>

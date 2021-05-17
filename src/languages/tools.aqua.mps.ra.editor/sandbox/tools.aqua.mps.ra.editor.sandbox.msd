@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="aqua.tools.mps.ra.editor.sandbox" uuid="36546cc0-44bd-4a7c-8d8e-88c5b4a2ebde" moduleVersion="0" compileInMPS="true">
+<solution name="tools.aqua.mps.ra.editor.sandbox" uuid="36546cc0-44bd-4a7c-8d8e-88c5b4a2ebde" moduleVersion="0" compileInMPS="false">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
@@ -20,7 +20,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="36546cc0-44bd-4a7c-8d8e-88c5b4a2ebde(aqua.tools.mps.ra.editor.sandbox)" version="0" />
+    <module reference="36546cc0-44bd-4a7c-8d8e-88c5b4a2ebde(tools.aqua.mps.ra.editor.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
 

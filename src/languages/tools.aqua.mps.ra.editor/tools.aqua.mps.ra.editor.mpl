@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="aqua.tools.mps.ra.editor" uuid="91173cc5-e702-48c1-b668-e2396ff98500" languageVersion="0" moduleVersion="0">
+<language namespace="tools.aqua.mps.ra.editor" uuid="91173cc5-e702-48c1-b668-e2396ff98500" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/libs" type="java_classes">
+      <sourceRoot location="." />
+      <sourceRoot location="ralib-0.1-SNAPSHOT.jar" />
+      <sourceRoot location="automata-api-0.6.0.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -12,7 +17,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="aqua.tools.mps.ra.editor.generator" uuid="9133297a-6ab3-4e46-8791-ffe0423a082d">
+    <generator alias="main" namespace="tools.aqua.mps.ra.editor" uuid="9133297a-6ab3-4e46-8791-ffe0423a082d">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -26,6 +31,10 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</dependency>
+        <dependency reexport="false">91173cc5-e702-48c1-b668-e2396ff98500(tools.aqua.mps.ra.editor)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">0edf22a4-42bc-4e5d-954f-06aaaf51df00(jetbrains.mps.lang.makeup)</dependency>
+        <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -39,6 +48,7 @@
         <language slang="l:b401a680-8325-4110-8fd3-84331ff25bef:jetbrains.mps.lang.generator" version="3" />
         <language slang="l:d7706f63-9be2-479c-a3da-ae92af1e64d5:jetbrains.mps.lang.generator.generationContext" version="2" />
         <language slang="l:289fcc83-6543-41e8-a5ca-768235715ce4:jetbrains.mps.lang.generator.generationParameters" version="0" />
+        <language slang="l:0edf22a4-42bc-4e5d-954f-06aaaf51df00:jetbrains.mps.lang.makeup" version="0" />
         <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
         <language slang="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" version="5" />
         <language slang="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -50,10 +60,10 @@
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
+        <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />
+        <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="91173cc5-e702-48c1-b668-e2396ff98500(aqua.tools.mps.ra.editor)" version="0" />
-        <module reference="9133297a-6ab3-4e46-8791-ffe0423a082d(aqua.tools.mps.ra.editor.generator)" version="0" />
-        <module reference="f32294cc-72c7-4de6-81fa-270a39c90119(aqua.tools.mps.ra.editor.runtime)" version="0" />
+        <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
         <module reference="c0d65dc1-b9a2-4d72-9c00-3b5c4d9dc31a(aqua.tools.mps.ra.transition)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" version="0" />
@@ -62,7 +72,11 @@
         <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
+        <module reference="0edf22a4-42bc-4e5d-954f-06aaaf51df00(jetbrains.mps.lang.makeup)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+        <module reference="91173cc5-e702-48c1-b668-e2396ff98500(tools.aqua.mps.ra.editor)" version="0" />
+        <module reference="9133297a-6ab3-4e46-8791-ffe0423a082d(tools.aqua.mps.ra.editor)" version="0" />
+        <module reference="f32294cc-72c7-4de6-81fa-270a39c90119(tools.aqua.mps.ra.editor.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -125,7 +139,6 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="91173cc5-e702-48c1-b668-e2396ff98500(aqua.tools.mps.ra.editor)" version="0" />
     <module reference="c0d65dc1-b9a2-4d72-9c00-3b5c4d9dc31a(aqua.tools.mps.ra.transition)" version="0" />
     <module reference="f7ad14aa-a3e2-4301-8822-d919845c8bcf(de.itemis.mps.editor.diagram.shapes)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
@@ -144,9 +157,10 @@
     <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="91173cc5-e702-48c1-b668-e2396ff98500(tools.aqua.mps.ra.editor)" version="0" />
   </dependencyVersions>
   <runtime>
-    <dependency reexport="false">f32294cc-72c7-4de6-81fa-270a39c90119(aqua.tools.mps.ra.editor.runtime)</dependency>
+    <dependency reexport="false">f32294cc-72c7-4de6-81fa-270a39c90119(tools.aqua.mps.ra.editor.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7ce746fc-d37e-4f3d-9c4e-65e780d8c57b(aqua.tools.mps.ra.editor.generator.xml@generator)">
+<model ref="r:7ce746fc-d37e-4f3d-9c4e-65e780d8c57b(tools.aqua.mps.ra.editor.xml@generator)">
   <persistence version="9" />
   <languages>
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
@@ -10,8 +10,17 @@
     <import index="4cus" ref="r:21da5544-2cb1-4bc6-8abc-4ed5bfb77d43(aqua.tools.mps.ra.editor.structure)" />
     <import index="7a2w" ref="r:10bf3684-5fb2-4fa0-9dd9-1d05589df2e9(jetbrains.mps.util.xml)" />
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
+    <import index="8f4m" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib(aqua.tools.mps.ra.editor/)" />
+    <import index="pkzs" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib.automata(aqua.tools.mps.ra.editor/)" />
+    <import index="2gk1" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib.words(aqua.tools.mps.ra.editor/)" />
+    <import index="kci" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib.data(aqua.tools.mps.ra.editor/)" />
+    <import index="mxsk" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib.automata.guards(aqua.tools.mps.ra.editor/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="yw6m" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:de.learnlib.ralib.data.util(aqua.tools.mps.ra.editor/)" />
+    <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
+    <import index="6zsv" ref="91173cc5-e702-48c1-b668-e2396ff98500/java:net.automatalib.words(aqua.tools.mps.ra.editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="gex0" ref="r:c9dbc8a8-f7f3-4a7b-bbad-000a18399b5d(aqua.tools.mps.ra.editor.behavior)" implicit="true" />
+    <import index="gex0" ref="r:c9dbc8a8-f7f3-4a7b-bbad-000a18399b5d(tools.aqua.mps.ra.editor.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
