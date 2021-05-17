@@ -38,7 +38,7 @@ testclasses
 teamcity-info.xml
 *.hprof
 *.class
-bulid_src
+build_src
 
 # Plugins related excludes:
 # Downloadable plugin libraries
